@@ -1,0 +1,41 @@
+{
+  "images": {
+    "early_blight": 250,
+    "healthy": 250,
+    "other_late_blight": 75,
+    "other_septoria": 75
+  },
+  "confusion_matrix": {
+    "tp": 231,
+    "fn": 19,
+    "fp": 9,
+    "tn": 241
+  },
+  "accuracy": 94.4,
+  "precision": 96.25,
+  "recall": 92.4,
+  "specificity": 96.4,
+  "f1": 94.29,
+  "severity_counts": {
+    "Mild": 98,
+    "Moderate": 79,
+    "Severe": 54
+  },
+  "low_confidence_count": 21,
+  "out_of_scope_flagged_as_early_blight": {
+    "other_late_blight": 68,
+    "other_septoria": 63
+  },
+  "inference_ms": {
+    "mean": 49.8,
+    "median": 50.0,
+    "p95": 52,
+    "max": 84
+  },
+  "response_ms": {
+    "mean": 52.6,
+    "median": 52.4,
+    "p95": 55.0,
+    "max": 87.4
+  }
+}

@@ -1,0 +1,282 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Explainable Tomato Early Blight Detection</title>
+<style>
+  :root {
+    --bg: #f4f7f2; --card: #ffffff; --text: #1d2b1f; --muted: #5d6b60;
+    --line: #d9e2d6; --accent: #2e7d32; --accent-dark: #1b5e20; --soft: #f7fbf6;
+    --ok-bg: #e6f4e7; --ok: #1b5e20; --bad-bg: #fdeaea; --bad: #b3261e;
+    --warn-bg: #fff4d6; --warn: #7a5200;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--text);
+    font: 16px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  header { background: var(--accent-dark); color: #fff; }
+  header .inner, main { max-width: 960px; margin: 0 auto; padding: 0 16px; }
+  header .inner { padding-top: 20px; padding-bottom: 20px; }
+  h1 { margin: 0; font-size: 1.5rem; }
+  header p { margin: 4px 0 0; opacity: .9; }
+  main { padding-top: 24px; padding-bottom: 48px; }
+  h2 { margin: 0 0 12px; font-size: 1.15rem; }
+  h3 { margin: 0 0 8px; font-size: 1rem; }
+  .card {
+    background: var(--card); border: 1px solid var(--line);
+    border-radius: 12px; padding: 20px; margin-bottom: 20px;
+  }
+  .steps { display: flex; flex-wrap: wrap; gap: 8px 20px; margin: 0 0 16px; padding: 0; list-style: none; color: var(--muted); font-size: .9rem; }
+  .steps b { color: var(--accent-dark); }
+
+  .pickers { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+  .picker {
+    display: block; border: 2px dashed var(--line); border-radius: 10px;
+    padding: 20px 12px; text-align: center; cursor: pointer; color: var(--muted);
+  }
+  .picker:hover, .picker.over { border-color: var(--accent); background: var(--soft); }
+  .picker:focus-within { outline: 2px solid var(--accent); outline-offset: 2px; }
+  .picker strong { display: block; color: var(--accent-dark); }
+  .picker input { position: absolute; opacity: 0; width: 1px; height: 1px; }
+  .chosen { display: flex; align-items: center; gap: 12px; margin-top: 14px; }
+  .chosen img { width: 64px; height: 64px; object-fit: cover; border-radius: 8px; border: 1px solid var(--line); }
+  .chosen span { word-break: break-all; font-size: .9rem; color: var(--muted); }
+  button.primary {
+    margin-top: 16px; width: 100%; padding: 12px; border: 0; border-radius: 8px;
+    background: var(--accent); color: #fff; font: inherit; font-weight: 600; cursor: pointer;
+  }
+  button.primary:hover:not(:disabled) { background: var(--accent-dark); }
+  button.primary:disabled { opacity: .55; cursor: not-allowed; }
+  .error { margin-top: 12px; color: var(--bad); }
+
+  .verdict { padding: 14px 16px; border-radius: 10px; margin-bottom: 16px; }
+  .verdict.ok { background: var(--ok-bg); color: var(--ok); }
+  .verdict.bad { background: var(--bad-bg); color: var(--bad); }
+  .verdict .label { font-size: 1.6rem; font-weight: 700; line-height: 1.2; }
+  .stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin-bottom: 16px; }
+  .stat { border: 1px solid var(--line); border-radius: 10px; padding: 10px 12px; }
+  .stat .k { font-size: .8rem; color: var(--muted); }
+  .stat .v { font-size: 1.2rem; font-weight: 700; }
+  .notice { background: var(--warn-bg); color: var(--warn); border-radius: 8px; padding: 10px 12px; margin-bottom: 16px; }
+
+  .tabs { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 12px; }
+  .tabs button {
+    padding: 8px 14px; border-radius: 999px; border: 1px solid var(--line);
+    background: #fff; color: var(--text); font: inherit; cursor: pointer;
+  }
+  .tabs button[aria-selected="true"] { background: var(--accent); border-color: var(--accent); color: #fff; }
+  .views { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  figure { margin: 0; }
+  figure img { width: 100%; border-radius: 8px; border: 1px solid var(--line); display: block; }
+  figcaption { margin-top: 6px; font-size: .9rem; color: var(--muted); text-align: center; }
+  .legend { display: flex; align-items: center; gap: 8px; justify-content: center; margin-top: 6px; font-size: .8rem; color: var(--muted); }
+  .legend i { width: 120px; height: 8px; border-radius: 4px; background: linear-gradient(90deg, #00f, #0ff, #0f0, #ff0, #f00); }
+  .explain { margin: 12px 0 0; font-size: .9rem; color: var(--muted); }
+
+  .advisory { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  .advisory section { border: 1px solid var(--line); border-radius: 10px; padding: 14px 16px; }
+  .advisory section.wide { grid-column: 1 / -1; }
+  .advisory ul { margin: 0; padding-left: 20px; }
+  .advisory li { margin-bottom: 4px; }
+  .advisory p { margin: 0; }
+  .pathogen { color: var(--muted); font-size: .9rem; margin-top: 6px !important; }
+  .note { margin: 16px 0 0; font-size: .85rem; color: var(--muted); }
+  [hidden] { display: none !important; }
+  @media (max-width: 640px) {
+    .pickers, .views, .advisory { grid-template-columns: 1fr; }
+    .stats { grid-template-columns: 1fr 1fr; }
+  }
+</style>
+</head>
+<body>
+<header>
+  <div class="inner">
+    <h1>Explainable Tomato Early Blight Detection</h1>
+    <p>Check a tomato leaf, see where the disease is, and get treatment advice.</p>
+  </div>
+</header>
+<main>
+  <form class="card" id="form">
+    <ul class="steps">
+      <li><b>1.</b> Take or upload a leaf photo</li>
+      <li><b>2.</b> AI finds the lesions</li>
+      <li><b>3.</b> See the explanation and advice</li>
+    </ul>
+    <div class="pickers">
+      <label class="picker" id="pickCamera">
+        <input type="file" id="camera" accept="image/*" capture="environment">
+        <strong>Take a photo</strong>
+        Use the device camera
+      </label>
+      <label class="picker" id="pickGallery">
+        <input type="file" id="gallery" accept="image/*">
+        <strong>Upload from gallery</strong>
+        or drag an image here
+      </label>
+    </div>
+    <div class="chosen" id="chosen" hidden>
+      <img id="thumb" alt="Selected leaf preview">
+      <span id="filename"></span>
+    </div>
+    <button type="submit" class="primary" id="submit" disabled>Detect disease</button>
+    <div class="error" id="error" role="alert" hidden></div>
+  </form>
+
+  <div id="result" hidden aria-live="polite">
+    <section class="card">
+      <h2>Diagnosis</h2>
+      <div class="verdict" id="verdict">
+        <div class="label" id="label"></div>
+        <div id="detail"></div>
+      </div>
+      <div class="notice" id="lowconf" hidden>The model is not very sure about this image. Retake the photo in good daylight with a single leaf filling the frame.</div>
+      <div class="stats">
+        <div class="stat"><div class="k">Confidence</div><div class="v" id="confidence"></div></div>
+        <div class="stat"><div class="k">Severity</div><div class="v" id="severity"></div></div>
+        <div class="stat"><div class="k">Lesion area</div><div class="v" id="area"></div></div>
+        <div class="stat"><div class="k">Analysis time</div><div class="v" id="time"></div></div>
+      </div>
+
+      <h2>Visual explanation</h2>
+      <div class="tabs" role="tablist" id="tabs">
+        <button type="button" role="tab" data-view="lesions" aria-selected="true">Detected lesions</button>
+        <button type="button" role="tab" data-view="heatmap" aria-selected="false" id="heatTab">Grad-CAM heatmap</button>
+      </div>
+      <div class="views">
+        <figure><img id="original" alt="Uploaded leaf"><figcaption>Uploaded image</figcaption></figure>
+        <figure>
+          <img id="explained" alt="">
+          <figcaption id="explainedCaption"></figcaption>
+          <div class="legend" id="legend" hidden>low <i></i> high attention</div>
+        </figure>
+      </div>
+      <p class="explain" id="explainText"></p>
+    </section>
+
+    <section class="card">
+      <h2>Advisory</h2>
+      <div class="advisory" id="advisory"></div>
+      <p class="note">This tool only looks for early blight. It cannot identify other diseases, and results on photos that are not tomato leaves are not meaningful. Fungicide names and doses are general guidance; follow the product label and your local agricultural officer.</p>
+    </section>
+  </div>
+</main>
+
+<script>
+const form = document.getElementById('form');
+const submit = document.getElementById('submit');
+const errorBox = document.getElementById('error');
+const result = document.getElementById('result');
+const inputs = [document.getElementById('camera'), document.getElementById('gallery')];
+let selectedFile = null;
+let lastData = null;
+
+function choose(file) {
+  if (!file) return;
+  selectedFile = file;
+  document.getElementById('thumb').src = URL.createObjectURL(file);
+  document.getElementById('filename').textContent = file.name;
+  document.getElementById('chosen').hidden = false;
+  submit.disabled = false;
+  errorBox.hidden = true;
+}
+inputs.forEach(input => input.addEventListener('change', () => choose(input.files[0])));
+
+const dropZone = document.getElementById('pickGallery');
+['dragover', 'dragleave', 'drop'].forEach(type => dropZone.addEventListener(type, e => {
+  e.preventDefault();
+  dropZone.classList.toggle('over', type === 'dragover');
+  if (type === 'drop') choose(e.dataTransfer.files[0]);
+}));
+
+const VIEWS = {
+  lesions: {
+    caption: 'Detected lesions (red)',
+    alt: 'Leaf with the detected lesion pixels marked in red',
+    text: 'Red areas are the pixels the model classified as early blight lesions.',
+  },
+  heatmap: {
+    caption: 'Grad-CAM heatmap',
+    alt: 'Leaf with a Grad-CAM heatmap over the regions that drove the diagnosis',
+    text: 'The heatmap shows which regions of the leaf influenced the diagnosis the most. Warm colours mean high attention.',
+  },
+};
+
+function showView(name) {
+  const view = VIEWS[name];
+  const img = document.getElementById('explained');
+  img.src = lastData[name];
+  img.alt = view.alt;
+  document.getElementById('explainedCaption').textContent = view.caption;
+  document.getElementById('explainText').textContent = lastData.diseased
+    ? view.text : 'No lesion pixels were found, so there is nothing to highlight.';
+  document.getElementById('legend').hidden = name !== 'heatmap';
+  document.querySelectorAll('#tabs button').forEach(b => b.setAttribute('aria-selected', String(b.dataset.view === name)));
+}
+document.getElementById('tabs').addEventListener('click', e => {
+  if (e.target.dataset.view) showView(e.target.dataset.view);
+});
+
+function listSection(title, items, wide) {
+  if (!items || !items.length) return '';
+  const lis = items.map(t => `<li>${escapeHtml(t)}</li>`).join('');
+  return `<section${wide ? ' class="wide"' : ''}><h3>${title}</h3><ul>${lis}</ul></section>`;
+}
+function escapeHtml(s) {
+  return s.replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+}
+
+function render(data) {
+  lastData = data;
+  document.getElementById('verdict').className = 'verdict ' + (data.diseased ? 'bad' : 'ok');
+  document.getElementById('label').textContent = data.label;
+  document.getElementById('detail').textContent = data.diseased
+    ? `Early blight lesions cover ${data.lesion_area}% of the image.`
+    : 'No early blight lesions found on this leaf.';
+  document.getElementById('lowconf').hidden = !data.low_confidence;
+  document.getElementById('confidence').textContent = data.confidence + '%';
+  document.getElementById('severity').textContent = data.severity || 'None';
+  document.getElementById('area').textContent = data.lesion_area + '%';
+  document.getElementById('time').textContent = data.inference_ms + ' ms';
+  document.getElementById('original').src = data.original;
+  document.getElementById('heatTab').hidden = !data.diseased;
+  showView('lesions');
+
+  const a = data.advisory;
+  const pathogen = data.diseased ? `<p class="pathogen">Cause: ${escapeHtml(a.pathogen)}</p>` : '';
+  document.getElementById('advisory').innerHTML =
+    `<section class="wide"><h3>${escapeHtml(a.name)}</h3><p>${escapeHtml(a.description)}</p>${pathogen}</section>` +
+    listSection('Symptoms', a.symptoms, true) +
+    listSection('Organic treatment', a.organic) +
+    listSection('Chemical treatment', a.chemical) +
+    listSection(data.diseased ? 'Prevention' : 'Keep the crop healthy', a.prevention, true);
+
+  result.hidden = false;
+  result.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+form.addEventListener('submit', async e => {
+  e.preventDefault();
+  if (!selectedFile) return;
+  submit.disabled = true;
+  submit.textContent = 'Analysing…';
+  errorBox.hidden = true;
+  try {
+    const body = new FormData();
+    body.append('image', selectedFile);
+    const res = await fetch('/predict', { method: 'POST', body });
+    const data = await res.json();
+    if (!res.ok) throw new Error(data.error || 'Something went wrong.');
+    render(data);
+  } catch (err) {
+    errorBox.textContent = err.message;
+    errorBox.hidden = false;
+  } finally {
+    submit.textContent = 'Detect disease';
+    submit.disabled = false;
+  }
+});
+</script>
+</body>
+</html>

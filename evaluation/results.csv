@@ -1,0 +1,651 @@
+file,folder,expected,predicted,severity,lesion_area,confidence,low_confidence,inference_ms,response_ms
+test_images/early_blight/early_blight_000.jpg,early_blight,Early Blight,Early Blight,Mild,1.09,97.1,False,68,277.8
+test_images/early_blight/early_blight_001.jpg,early_blight,Early Blight,Early Blight,Mild,2.55,93.8,False,50,52.9
+test_images/early_blight/early_blight_002.jpg,early_blight,Early Blight,Early Blight,Mild,0.48,92.2,False,47,50.4
+test_images/early_blight/early_blight_003.jpg,early_blight,Early Blight,Early Blight,Moderate,8.45,97.0,False,50,53.8
+test_images/early_blight/early_blight_004.jpg,early_blight,Early Blight,Early Blight,Severe,10.15,96.8,False,48,51.4
+test_images/early_blight/early_blight_005.jpg,early_blight,Early Blight,Early Blight,Moderate,9.03,94.4,False,49,52.7
+test_images/early_blight/early_blight_006.jpg,early_blight,Early Blight,Early Blight,Mild,1.74,90.3,False,50,53.2
+test_images/early_blight/early_blight_007.jpg,early_blight,Early Blight,Early Blight,Mild,2.7,94.3,False,49,52.0
+test_images/early_blight/early_blight_008.jpg,early_blight,Early Blight,Early Blight,Mild,0.94,94.0,False,49,52.5
+test_images/early_blight/early_blight_009.jpg,early_blight,Early Blight,Early Blight,Severe,19.12,97.4,False,51,53.8
+test_images/early_blight/early_blight_010.jpg,early_blight,Early Blight,Early Blight,Mild,0.3,91.5,False,46,49.5
+test_images/early_blight/early_blight_011.jpg,early_blight,Early Blight,Early Blight,Mild,0.96,95.8,False,50,53.1
+test_images/early_blight/early_blight_012.jpg,early_blight,Early Blight,Early Blight,Moderate,7.81,96.8,False,47,50.6
+test_images/early_blight/early_blight_013.jpg,early_blight,Early Blight,Early Blight,Moderate,3.45,94.0,False,50,52.9
+test_images/early_blight/early_blight_014.jpg,early_blight,Early Blight,Early Blight,Mild,0.95,96.1,False,50,52.7
+test_images/early_blight/early_blight_015.jpg,early_blight,Early Blight,Early Blight,Severe,14.92,97.2,False,49,52.5
+test_images/early_blight/early_blight_016.jpg,early_blight,Early Blight,Early Blight,Moderate,4.66,93.4,False,47,50.6
+test_images/early_blight/early_blight_017.jpg,early_blight,Early Blight,Early Blight,Moderate,6.98,94.8,False,48,51.7
+test_images/early_blight/early_blight_018.jpg,early_blight,Early Blight,Early Blight,Mild,2.67,91.4,False,49,52.5
+test_images/early_blight/early_blight_019.jpg,early_blight,Early Blight,Early Blight,Moderate,9.77,97.5,False,51,54.7
+test_images/early_blight/early_blight_020.jpg,early_blight,Early Blight,Early Blight,Mild,1.16,94.2,False,49,52.5
+test_images/early_blight/early_blight_021.jpg,early_blight,Early Blight,Healthy,,0.02,27.1,True,48,50.2
+test_images/early_blight/early_blight_022.jpg,early_blight,Early Blight,Early Blight,Mild,2.39,93.1,False,49,52.6
+test_images/early_blight/early_blight_023.jpg,early_blight,Early Blight,Early Blight,Mild,0.56,92.0,False,50,52.8
+test_images/early_blight/early_blight_024.jpg,early_blight,Early Blight,Early Blight,Severe,10.68,94.4,False,49,52.6
+test_images/early_blight/early_blight_025.jpg,early_blight,Early Blight,Early Blight,Mild,0.67,93.9,False,50,52.5
+test_images/early_blight/early_blight_026.jpg,early_blight,Early Blight,Early Blight,Moderate,5.78,96.2,False,50,53.5
+test_images/early_blight/early_blight_027.jpg,early_blight,Early Blight,Healthy,,0.18,15.6,True,50,52.0
+test_images/early_blight/early_blight_028.jpg,early_blight,Early Blight,Early Blight,Severe,13.68,96.0,False,50,53.0
+test_images/early_blight/early_blight_029.jpg,early_blight,Early Blight,Early Blight,Mild,2.4,95.1,False,49,52.6
+test_images/early_blight/early_blight_030.jpg,early_blight,Early Blight,Early Blight,Mild,2.51,93.7,False,49,52.5
+test_images/early_blight/early_blight_031.jpg,early_blight,Early Blight,Early Blight,Mild,0.79,95.9,False,50,52.9
+test_images/early_blight/early_blight_032.jpg,early_blight,Early Blight,Early Blight,Severe,14.18,95.3,False,50,53.1
+test_images/early_blight/early_blight_033.jpg,early_blight,Early Blight,Early Blight,Severe,18.19,96.1,False,50,53.0
+test_images/early_blight/early_blight_034.jpg,early_blight,Early Blight,Early Blight,Mild,1.13,95.7,False,49,52.6
+test_images/early_blight/early_blight_035.jpg,early_blight,Early Blight,Early Blight,Severe,11.89,97.3,False,50,53.1
+test_images/early_blight/early_blight_036.jpg,early_blight,Early Blight,Early Blight,Moderate,7.29,96.5,False,50,53.2
+test_images/early_blight/early_blight_037.jpg,early_blight,Early Blight,Early Blight,Mild,2.98,95.9,False,50,53.1
+test_images/early_blight/early_blight_038.jpg,early_blight,Early Blight,Early Blight,Mild,2.65,91.9,False,47,50.4
+test_images/early_blight/early_blight_039.jpg,early_blight,Early Blight,Early Blight,Moderate,9.04,95.8,False,48,51.7
+test_images/early_blight/early_blight_040.jpg,early_blight,Early Blight,Early Blight,Mild,1.13,93.1,False,50,53.3
+test_images/early_blight/early_blight_041.jpg,early_blight,Early Blight,Early Blight,Moderate,4.09,93.6,False,50,53.0
+test_images/early_blight/early_blight_042.jpg,early_blight,Early Blight,Early Blight,Moderate,3.37,95.9,False,50,52.8
+test_images/early_blight/early_blight_043.jpg,early_blight,Early Blight,Early Blight,Mild,1.58,96.7,False,50,52.6
+test_images/early_blight/early_blight_044.jpg,early_blight,Early Blight,Early Blight,Moderate,3.67,88.9,False,50,52.9
+test_images/early_blight/early_blight_045.jpg,early_blight,Early Blight,Healthy,,0.0,76.4,False,50,51.9
+test_images/early_blight/early_blight_046.jpg,early_blight,Early Blight,Early Blight,Severe,19.76,96.9,False,50,53.3
+test_images/early_blight/early_blight_047.jpg,early_blight,Early Blight,Early Blight,Moderate,3.03,96.1,False,50,53.1
+test_images/early_blight/early_blight_048.jpg,early_blight,Early Blight,Early Blight,Mild,0.68,92.8,False,50,52.8
+test_images/early_blight/early_blight_049.jpg,early_blight,Early Blight,Early Blight,Moderate,4.62,94.1,False,49,52.9
+test_images/early_blight/early_blight_050.jpg,early_blight,Early Blight,Early Blight,Moderate,5.81,93.6,False,49,52.4
+test_images/early_blight/early_blight_051.jpg,early_blight,Early Blight,Early Blight,Mild,1.36,90.7,False,50,52.7
+test_images/early_blight/early_blight_052.jpg,early_blight,Early Blight,Early Blight,Mild,0.3,85.9,False,50,53.0
+test_images/early_blight/early_blight_053.jpg,early_blight,Early Blight,Early Blight,Mild,2.31,91.6,False,50,52.8
+test_images/early_blight/early_blight_054.jpg,early_blight,Early Blight,Healthy,,0.15,7.1,True,50,52.3
+test_images/early_blight/early_blight_055.jpg,early_blight,Early Blight,Early Blight,Mild,2.98,91.2,False,49,52.5
+test_images/early_blight/early_blight_056.jpg,early_blight,Early Blight,Early Blight,Moderate,6.42,95.9,False,52,54.9
+test_images/early_blight/early_blight_057.jpg,early_blight,Early Blight,Healthy,,0.07,17.9,True,50,52.2
+test_images/early_blight/early_blight_058.jpg,early_blight,Early Blight,Early Blight,Mild,2.97,94.4,False,50,53.0
+test_images/early_blight/early_blight_059.jpg,early_blight,Early Blight,Early Blight,Severe,10.94,98.6,False,50,53.1
+test_images/early_blight/early_blight_060.jpg,early_blight,Early Blight,Early Blight,Severe,10.15,96.5,False,50,52.8
+test_images/early_blight/early_blight_061.jpg,early_blight,Early Blight,Healthy,,0.0,89.5,False,49,51.4
+test_images/early_blight/early_blight_062.jpg,early_blight,Early Blight,Early Blight,Mild,1.28,96.2,False,49,52.4
+test_images/early_blight/early_blight_063.jpg,early_blight,Early Blight,Early Blight,Severe,20.8,97.8,False,50,53.4
+test_images/early_blight/early_blight_064.jpg,early_blight,Early Blight,Early Blight,Moderate,9.94,96.3,False,50,53.6
+test_images/early_blight/early_blight_065.jpg,early_blight,Early Blight,Early Blight,Mild,0.61,93.8,False,50,53.0
+test_images/early_blight/early_blight_066.jpg,early_blight,Early Blight,Early Blight,Moderate,3.93,94.7,False,50,52.8
+test_images/early_blight/early_blight_067.jpg,early_blight,Early Blight,Healthy,,0.17,9.4,True,50,52.1
+test_images/early_blight/early_blight_068.jpg,early_blight,Early Blight,Healthy,,0.0,90.5,False,49,51.5
+test_images/early_blight/early_blight_069.jpg,early_blight,Early Blight,Early Blight,Moderate,5.15,94.4,False,49,52.5
+test_images/early_blight/early_blight_070.jpg,early_blight,Early Blight,Early Blight,Moderate,7.25,98.2,False,49,51.7
+test_images/early_blight/early_blight_071.jpg,early_blight,Early Blight,Early Blight,Mild,0.97,91.5,False,47,49.9
+test_images/early_blight/early_blight_072.jpg,early_blight,Early Blight,Early Blight,Severe,11.1,95.7,False,50,53.1
+test_images/early_blight/early_blight_073.jpg,early_blight,Early Blight,Early Blight,Mild,0.35,91.6,False,50,52.9
+test_images/early_blight/early_blight_074.jpg,early_blight,Early Blight,Early Blight,Moderate,8.67,96.3,False,50,53.5
+test_images/early_blight/early_blight_075.jpg,early_blight,Early Blight,Early Blight,Moderate,7.04,91.3,False,51,54.4
+test_images/early_blight/early_blight_076.jpg,early_blight,Early Blight,Early Blight,Severe,13.55,95.1,False,50,53.4
+test_images/early_blight/early_blight_077.jpg,early_blight,Early Blight,Healthy,,0.0,99.8,False,50,51.9
+test_images/early_blight/early_blight_078.jpg,early_blight,Early Blight,Early Blight,Moderate,3.27,92.7,False,50,52.8
+test_images/early_blight/early_blight_079.jpg,early_blight,Early Blight,Early Blight,Mild,1.13,92.1,False,50,53.2
+test_images/early_blight/early_blight_080.jpg,early_blight,Early Blight,Early Blight,Moderate,4.21,96.3,False,50,53.0
+test_images/early_blight/early_blight_081.jpg,early_blight,Early Blight,Early Blight,Mild,1.27,96.5,False,47,49.9
+test_images/early_blight/early_blight_082.jpg,early_blight,Early Blight,Early Blight,Mild,2.17,95.7,False,50,53.0
+test_images/early_blight/early_blight_083.jpg,early_blight,Early Blight,Early Blight,Severe,18.26,98.5,False,50,53.2
+test_images/early_blight/early_blight_084.jpg,early_blight,Early Blight,Early Blight,Severe,22.56,98.2,False,50,53.6
+test_images/early_blight/early_blight_085.jpg,early_blight,Early Blight,Early Blight,Moderate,6.33,93.1,False,50,53.3
+test_images/early_blight/early_blight_086.jpg,early_blight,Early Blight,Early Blight,Moderate,4.84,94.4,False,47,50.2
+test_images/early_blight/early_blight_087.jpg,early_blight,Early Blight,Early Blight,Severe,24.62,98.3,False,50,53.2
+test_images/early_blight/early_blight_088.jpg,early_blight,Early Blight,Early Blight,Moderate,6.64,96.1,False,50,53.2
+test_images/early_blight/early_blight_089.jpg,early_blight,Early Blight,Early Blight,Moderate,7.53,96.5,False,49,52.8
+test_images/early_blight/early_blight_090.jpg,early_blight,Early Blight,Early Blight,Mild,0.36,95.3,False,50,52.8
+test_images/early_blight/early_blight_091.jpg,early_blight,Early Blight,Early Blight,Moderate,8.15,96.1,False,50,53.2
+test_images/early_blight/early_blight_092.jpg,early_blight,Early Blight,Early Blight,Mild,2.73,93.1,False,50,52.9
+test_images/early_blight/early_blight_093.jpg,early_blight,Early Blight,Early Blight,Moderate,8.71,96.8,False,51,54.6
+test_images/early_blight/early_blight_094.jpg,early_blight,Early Blight,Early Blight,Moderate,3.82,93.2,False,49,52.5
+test_images/early_blight/early_blight_095.jpg,early_blight,Early Blight,Early Blight,Severe,13.89,97.8,False,49,53.0
+test_images/early_blight/early_blight_096.jpg,early_blight,Early Blight,Early Blight,Moderate,5.95,94.9,False,50,53.1
+test_images/early_blight/early_blight_097.jpg,early_blight,Early Blight,Early Blight,Mild,0.64,89.6,False,48,51.1
+test_images/early_blight/early_blight_098.jpg,early_blight,Early Blight,Early Blight,Moderate,5.17,95.4,False,47,49.9
+test_images/early_blight/early_blight_099.jpg,early_blight,Early Blight,Early Blight,Severe,29.36,96.7,False,48,51.4
+test_images/early_blight/early_blight_100.jpg,early_blight,Early Blight,Early Blight,Severe,13.06,97.6,False,49,52.7
+test_images/early_blight/early_blight_101.jpg,early_blight,Early Blight,Early Blight,Mild,1.29,96.7,False,50,52.6
+test_images/early_blight/early_blight_102.jpg,early_blight,Early Blight,Early Blight,Severe,19.39,98.8,False,50,53.2
+test_images/early_blight/early_blight_103.jpg,early_blight,Early Blight,Early Blight,Severe,14.53,96.8,False,50,53.4
+test_images/early_blight/early_blight_104.jpg,early_blight,Early Blight,Early Blight,Severe,14.77,98.2,False,50,53.2
+test_images/early_blight/early_blight_105.jpg,early_blight,Early Blight,Early Blight,Mild,2.05,96.4,False,49,52.8
+test_images/early_blight/early_blight_106.jpg,early_blight,Early Blight,Early Blight,Moderate,8.64,97.0,False,48,51.4
+test_images/early_blight/early_blight_107.jpg,early_blight,Early Blight,Early Blight,Moderate,5.72,95.1,False,49,52.5
+test_images/early_blight/early_blight_108.jpg,early_blight,Early Blight,Early Blight,Mild,0.61,93.1,False,50,53.1
+test_images/early_blight/early_blight_109.jpg,early_blight,Early Blight,Early Blight,Severe,28.62,97.8,False,50,53.7
+test_images/early_blight/early_blight_110.jpg,early_blight,Early Blight,Early Blight,Severe,19.57,95.3,False,48,52.0
+test_images/early_blight/early_blight_111.jpg,early_blight,Early Blight,Early Blight,Mild,3.0,96.2,False,50,53.0
+test_images/early_blight/early_blight_112.jpg,early_blight,Early Blight,Healthy,,0.0,99.6,False,50,51.6
+test_images/early_blight/early_blight_113.jpg,early_blight,Early Blight,Early Blight,Moderate,8.03,94.5,False,49,52.6
+test_images/early_blight/early_blight_114.jpg,early_blight,Early Blight,Early Blight,Severe,20.85,95.3,False,49,52.8
+test_images/early_blight/early_blight_115.jpg,early_blight,Early Blight,Early Blight,Severe,26.45,98.6,False,46,49.9
+test_images/early_blight/early_blight_116.jpg,early_blight,Early Blight,Early Blight,Moderate,7.76,95.9,False,50,53.0
+test_images/early_blight/early_blight_117.jpg,early_blight,Early Blight,Early Blight,Severe,12.71,97.1,False,50,53.3
+test_images/early_blight/early_blight_118.jpg,early_blight,Early Blight,Early Blight,Mild,2.52,91.3,False,47,50.5
+test_images/early_blight/early_blight_119.jpg,early_blight,Early Blight,Early Blight,Severe,15.08,97.3,False,48,51.7
+test_images/early_blight/early_blight_120.jpg,early_blight,Early Blight,Early Blight,Moderate,3.01,93.3,False,48,50.7
+test_images/early_blight/early_blight_121.jpg,early_blight,Early Blight,Early Blight,Moderate,4.87,95.8,False,50,52.7
+test_images/early_blight/early_blight_122.jpg,early_blight,Early Blight,Early Blight,Mild,0.71,92.6,False,50,52.9
+test_images/early_blight/early_blight_123.jpg,early_blight,Early Blight,Early Blight,Severe,16.78,94.4,False,50,53.0
+test_images/early_blight/early_blight_124.jpg,early_blight,Early Blight,Early Blight,Moderate,6.16,94.7,False,50,53.3
+test_images/early_blight/early_blight_125.jpg,early_blight,Early Blight,Early Blight,Severe,14.33,95.3,False,47,50.5
+test_images/early_blight/early_blight_126.jpg,early_blight,Early Blight,Healthy,,0.0,75.9,False,47,49.2
+test_images/early_blight/early_blight_127.jpg,early_blight,Early Blight,Early Blight,Mild,2.68,88.2,False,52,54.7
+test_images/early_blight/early_blight_128.jpg,early_blight,Early Blight,Early Blight,Severe,15.99,97.9,False,48,51.6
+test_images/early_blight/early_blight_129.jpg,early_blight,Early Blight,Healthy,,0.02,36.2,True,48,50.3
+test_images/early_blight/early_blight_130.jpg,early_blight,Early Blight,Early Blight,Mild,1.16,96.8,False,50,52.7
+test_images/early_blight/early_blight_131.jpg,early_blight,Early Blight,Early Blight,Moderate,4.29,92.9,False,49,52.6
+test_images/early_blight/early_blight_132.jpg,early_blight,Early Blight,Early Blight,Moderate,4.88,95.1,False,46,49.4
+test_images/early_blight/early_blight_133.jpg,early_blight,Early Blight,Early Blight,Mild,1.68,93.7,False,48,51.3
+test_images/early_blight/early_blight_134.jpg,early_blight,Early Blight,Early Blight,Mild,1.28,97.2,False,49,52.3
+test_images/early_blight/early_blight_135.jpg,early_blight,Early Blight,Early Blight,Mild,0.54,88.2,False,49,52.6
+test_images/early_blight/early_blight_136.jpg,early_blight,Early Blight,Early Blight,Moderate,6.98,94.7,False,49,52.7
+test_images/early_blight/early_blight_137.jpg,early_blight,Early Blight,Early Blight,Moderate,8.66,94.7,False,50,53.0
+test_images/early_blight/early_blight_138.jpg,early_blight,Early Blight,Early Blight,Mild,2.35,93.5,False,51,54.0
+test_images/early_blight/early_blight_139.jpg,early_blight,Early Blight,Early Blight,Moderate,3.04,93.3,False,50,53.1
+test_images/early_blight/early_blight_140.jpg,early_blight,Early Blight,Early Blight,Mild,0.72,93.5,False,50,53.1
+test_images/early_blight/early_blight_141.jpg,early_blight,Early Blight,Early Blight,Mild,1.42,97.4,False,50,52.7
+test_images/early_blight/early_blight_142.jpg,early_blight,Early Blight,Early Blight,Mild,1.52,95.6,False,50,52.8
+test_images/early_blight/early_blight_143.jpg,early_blight,Early Blight,Early Blight,Mild,1.27,93.1,False,50,53.1
+test_images/early_blight/early_blight_144.jpg,early_blight,Early Blight,Early Blight,Severe,16.03,95.4,False,50,53.4
+test_images/early_blight/early_blight_145.jpg,early_blight,Early Blight,Early Blight,Mild,0.36,93.8,False,48,50.8
+test_images/early_blight/early_blight_146.jpg,early_blight,Early Blight,Early Blight,Mild,1.77,94.0,False,48,51.5
+test_images/early_blight/early_blight_147.jpg,early_blight,Early Blight,Early Blight,Moderate,8.47,96.1,False,47,50.7
+test_images/early_blight/early_blight_148.jpg,early_blight,Early Blight,Early Blight,Severe,20.34,96.4,False,46,49.5
+test_images/early_blight/early_blight_149.jpg,early_blight,Early Blight,Early Blight,Severe,10.58,94.6,False,49,52.2
+test_images/early_blight/early_blight_150.jpg,early_blight,Early Blight,Early Blight,Severe,20.66,97.2,False,51,54.4
+test_images/early_blight/early_blight_151.jpg,early_blight,Early Blight,Early Blight,Severe,19.63,97.9,False,50,53.2
+test_images/early_blight/early_blight_152.jpg,early_blight,Early Blight,Early Blight,Moderate,6.29,96.2,False,50,52.7
+test_images/early_blight/early_blight_153.jpg,early_blight,Early Blight,Early Blight,Moderate,6.01,97.1,False,49,52.6
+test_images/early_blight/early_blight_154.jpg,early_blight,Early Blight,Healthy,,0.04,35.7,True,50,52.0
+test_images/early_blight/early_blight_155.jpg,early_blight,Early Blight,Early Blight,Mild,0.47,93.6,False,49,52.5
+test_images/early_blight/early_blight_156.jpg,early_blight,Early Blight,Early Blight,Moderate,6.32,96.4,False,50,52.8
+test_images/early_blight/early_blight_157.jpg,early_blight,Early Blight,Early Blight,Mild,0.42,92.3,False,50,52.8
+test_images/early_blight/early_blight_158.jpg,early_blight,Early Blight,Early Blight,Mild,1.92,89.4,False,50,53.2
+test_images/early_blight/early_blight_159.jpg,early_blight,Early Blight,Early Blight,Mild,0.49,92.1,False,49,52.6
+test_images/early_blight/early_blight_160.jpg,early_blight,Early Blight,Early Blight,Mild,1.93,92.9,False,49,52.7
+test_images/early_blight/early_blight_161.jpg,early_blight,Early Blight,Healthy,,0.17,12.2,True,50,51.8
+test_images/early_blight/early_blight_162.jpg,early_blight,Early Blight,Early Blight,Mild,2.45,96.3,False,50,52.8
+test_images/early_blight/early_blight_163.jpg,early_blight,Early Blight,Early Blight,Mild,0.76,95.3,False,50,52.9
+test_images/early_blight/early_blight_164.jpg,early_blight,Early Blight,Early Blight,Mild,0.45,91.1,False,50,53.5
+test_images/early_blight/early_blight_165.jpg,early_blight,Early Blight,Early Blight,Mild,0.88,93.7,False,50,53.1
+test_images/early_blight/early_blight_166.jpg,early_blight,Early Blight,Early Blight,Moderate,3.19,90.9,False,50,53.2
+test_images/early_blight/early_blight_167.jpg,early_blight,Early Blight,Early Blight,Mild,1.25,94.4,False,50,53.4
+test_images/early_blight/early_blight_168.jpg,early_blight,Early Blight,Early Blight,Moderate,4.97,93.3,False,52,55.0
+test_images/early_blight/early_blight_169.jpg,early_blight,Early Blight,Early Blight,Moderate,4.52,94.7,False,50,53.0
+test_images/early_blight/early_blight_170.jpg,early_blight,Early Blight,Early Blight,Severe,22.99,98.1,False,50,53.3
+test_images/early_blight/early_blight_171.jpg,early_blight,Early Blight,Early Blight,Moderate,9.58,97.1,False,50,52.8
+test_images/early_blight/early_blight_172.jpg,early_blight,Early Blight,Early Blight,Mild,0.51,94.6,False,50,53.2
+test_images/early_blight/early_blight_173.jpg,early_blight,Early Blight,Early Blight,Moderate,3.64,95.6,False,50,52.7
+test_images/early_blight/early_blight_174.jpg,early_blight,Early Blight,Early Blight,Severe,11.39,98.0,False,50,53.3
+test_images/early_blight/early_blight_175.jpg,early_blight,Early Blight,Healthy,,0.0,77.0,False,50,51.8
+test_images/early_blight/early_blight_176.jpg,early_blight,Early Blight,Early Blight,Mild,0.28,80.9,False,50,53.2
+test_images/early_blight/early_blight_177.jpg,early_blight,Early Blight,Early Blight,Moderate,7.32,95.6,False,50,52.8
+test_images/early_blight/early_blight_178.jpg,early_blight,Early Blight,Early Blight,Moderate,4.13,96.8,False,50,53.1
+test_images/early_blight/early_blight_179.jpg,early_blight,Early Blight,Healthy,,0.0,55.2,True,50,51.7
+test_images/early_blight/early_blight_180.jpg,early_blight,Early Blight,Early Blight,Moderate,7.5,93.5,False,49,52.4
+test_images/early_blight/early_blight_181.jpg,early_blight,Early Blight,Early Blight,Severe,31.62,97.5,False,49,53.3
+test_images/early_blight/early_blight_182.jpg,early_blight,Early Blight,Early Blight,Moderate,3.06,94.1,False,55,58.1
+test_images/early_blight/early_blight_183.jpg,early_blight,Early Blight,Early Blight,Severe,10.27,96.2,False,50,52.9
+test_images/early_blight/early_blight_184.jpg,early_blight,Early Blight,Healthy,,0.0,99.5,False,49,50.5
+test_images/early_blight/early_blight_185.jpg,early_blight,Early Blight,Early Blight,Moderate,4.17,93.0,False,50,53.4
+test_images/early_blight/early_blight_186.jpg,early_blight,Early Blight,Early Blight,Severe,24.96,98.4,False,47,50.8
+test_images/early_blight/early_blight_187.jpg,early_blight,Early Blight,Early Blight,Mild,0.98,93.0,False,47,50.7
+test_images/early_blight/early_blight_188.jpg,early_blight,Early Blight,Early Blight,Moderate,4.6,92.1,False,49,52.6
+test_images/early_blight/early_blight_189.jpg,early_blight,Early Blight,Early Blight,Mild,0.71,90.8,False,50,52.9
+test_images/early_blight/early_blight_190.jpg,early_blight,Early Blight,Early Blight,Mild,2.02,93.4,False,50,53.3
+test_images/early_blight/early_blight_191.jpg,early_blight,Early Blight,Early Blight,Moderate,3.88,95.4,False,50,52.8
+test_images/early_blight/early_blight_192.jpg,early_blight,Early Blight,Early Blight,Moderate,3.73,95.9,False,50,52.9
+test_images/early_blight/early_blight_193.jpg,early_blight,Early Blight,Early Blight,Mild,0.7,95.2,False,51,54.1
+test_images/early_blight/early_blight_194.jpg,early_blight,Early Blight,Early Blight,Moderate,6.82,97.7,False,50,52.9
+test_images/early_blight/early_blight_195.jpg,early_blight,Early Blight,Early Blight,Severe,28.72,97.1,False,50,53.5
+test_images/early_blight/early_blight_196.jpg,early_blight,Early Blight,Early Blight,Mild,0.39,94.5,False,47,50.0
+test_images/early_blight/early_blight_197.jpg,early_blight,Early Blight,Early Blight,Moderate,3.13,93.0,False,50,52.6
+test_images/early_blight/early_blight_198.jpg,early_blight,Early Blight,Early Blight,Severe,17.65,96.2,False,49,52.1
+test_images/early_blight/early_blight_199.jpg,early_blight,Early Blight,Early Blight,Moderate,6.05,96.0,False,46,49.6
+test_images/early_blight/early_blight_200.jpg,early_blight,Early Blight,Early Blight,Mild,0.42,87.1,False,49,51.9
+test_images/early_blight/early_blight_201.jpg,early_blight,Early Blight,Early Blight,Moderate,3.05,97.2,False,50,52.9
+test_images/early_blight/early_blight_202.jpg,early_blight,Early Blight,Early Blight,Mild,0.33,93.1,False,49,52.7
+test_images/early_blight/early_blight_203.jpg,early_blight,Early Blight,Early Blight,Mild,2.28,91.1,False,48,50.8
+test_images/early_blight/early_blight_204.jpg,early_blight,Early Blight,Early Blight,Mild,2.04,95.9,False,50,53.2
+test_images/early_blight/early_blight_205.jpg,early_blight,Early Blight,Early Blight,Severe,16.75,97.5,False,50,53.9
+test_images/early_blight/early_blight_206.jpg,early_blight,Early Blight,Early Blight,Moderate,5.06,95.5,False,47,50.4
+test_images/early_blight/early_blight_207.jpg,early_blight,Early Blight,Early Blight,Mild,1.26,94.9,False,46,49.6
+test_images/early_blight/early_blight_208.jpg,early_blight,Early Blight,Early Blight,Severe,15.78,98.3,False,46,49.7
+test_images/early_blight/early_blight_209.jpg,early_blight,Early Blight,Early Blight,Moderate,5.34,94.7,False,46,49.5
+test_images/early_blight/early_blight_210.jpg,early_blight,Early Blight,Early Blight,Severe,31.54,97.5,False,50,53.6
+test_images/early_blight/early_blight_211.jpg,early_blight,Early Blight,Early Blight,Moderate,4.67,97.3,False,48,51.4
+test_images/early_blight/early_blight_212.jpg,early_blight,Early Blight,Early Blight,Moderate,3.29,95.6,False,49,52.3
+test_images/early_blight/early_blight_213.jpg,early_blight,Early Blight,Early Blight,Moderate,6.91,94.4,False,50,52.9
+test_images/early_blight/early_blight_214.jpg,early_blight,Early Blight,Early Blight,Severe,16.29,96.5,False,50,53.7
+test_images/early_blight/early_blight_215.jpg,early_blight,Early Blight,Early Blight,Mild,0.54,84.1,False,47,49.8
+test_images/early_blight/early_blight_216.jpg,early_blight,Early Blight,Healthy,,0.07,23.3,True,48,49.7
+test_images/early_blight/early_blight_217.jpg,early_blight,Early Blight,Early Blight,Moderate,5.09,93.6,False,51,54.4
+test_images/early_blight/early_blight_218.jpg,early_blight,Early Blight,Healthy,,0.05,22.7,True,50,52.1
+test_images/early_blight/early_blight_219.jpg,early_blight,Early Blight,Early Blight,Severe,25.26,98.4,False,50,54.0
+test_images/early_blight/early_blight_220.jpg,early_blight,Early Blight,Early Blight,Mild,2.17,93.1,False,51,53.9
+test_images/early_blight/early_blight_221.jpg,early_blight,Early Blight,Early Blight,Severe,15.46,95.5,False,51,54.6
+test_images/early_blight/early_blight_222.jpg,early_blight,Early Blight,Early Blight,Mild,2.96,97.0,False,53,56.9
+test_images/early_blight/early_blight_223.jpg,early_blight,Early Blight,Early Blight,Severe,13.33,97.4,False,49,52.8
+test_images/early_blight/early_blight_224.jpg,early_blight,Early Blight,Early Blight,Moderate,6.5,94.8,False,51,54.7
+test_images/early_blight/early_blight_225.jpg,early_blight,Early Blight,Early Blight,Mild,1.27,96.8,False,50,53.4
+test_images/early_blight/early_blight_226.jpg,early_blight,Early Blight,Early Blight,Mild,1.49,96.4,False,51,53.7
+test_images/early_blight/early_blight_227.jpg,early_blight,Early Blight,Early Blight,Mild,1.43,91.7,False,52,54.9
+test_images/early_blight/early_blight_228.jpg,early_blight,Early Blight,Early Blight,Mild,0.67,91.5,False,50,53.5
+test_images/early_blight/early_blight_229.jpg,early_blight,Early Blight,Early Blight,Mild,2.57,94.4,False,51,54.1
+test_images/early_blight/early_blight_230.jpg,early_blight,Early Blight,Early Blight,Mild,1.62,91.3,False,51,53.9
+test_images/early_blight/early_blight_231.jpg,early_blight,Early Blight,Early Blight,Moderate,3.38,97.7,False,50,53.7
+test_images/early_blight/early_blight_232.jpg,early_blight,Early Blight,Early Blight,Mild,0.81,92.8,False,50,53.3
+test_images/early_blight/early_blight_233.jpg,early_blight,Early Blight,Early Blight,Severe,11.41,95.7,False,50,53.7
+test_images/early_blight/early_blight_234.jpg,early_blight,Early Blight,Early Blight,Mild,1.26,96.5,False,50,53.1
+test_images/early_blight/early_blight_235.jpg,early_blight,Early Blight,Early Blight,Severe,18.44,95.3,False,50,54.0
+test_images/early_blight/early_blight_236.jpg,early_blight,Early Blight,Early Blight,Moderate,3.31,95.0,False,50,53.2
+test_images/early_blight/early_blight_237.jpg,early_blight,Early Blight,Early Blight,Mild,2.71,94.7,False,48,51.1
+test_images/early_blight/early_blight_238.jpg,early_blight,Early Blight,Early Blight,Mild,1.11,94.7,False,51,53.8
+test_images/early_blight/early_blight_239.jpg,early_blight,Early Blight,Early Blight,Mild,0.33,87.5,False,60,63.6
+test_images/early_blight/early_blight_240.jpg,early_blight,Early Blight,Early Blight,Severe,10.04,96.1,False,51,54.1
+test_images/early_blight/early_blight_241.jpg,early_blight,Early Blight,Early Blight,Mild,1.35,94.3,False,51,54.0
+test_images/early_blight/early_blight_242.jpg,early_blight,Early Blight,Early Blight,Moderate,4.26,94.9,False,52,55.0
+test_images/early_blight/early_blight_243.jpg,early_blight,Early Blight,Early Blight,Moderate,6.66,95.1,False,52,54.9
+test_images/early_blight/early_blight_244.jpg,early_blight,Early Blight,Early Blight,Mild,1.71,93.4,False,48,50.9
+test_images/early_blight/early_blight_245.jpg,early_blight,Early Blight,Early Blight,Mild,1.74,96.3,False,50,53.4
+test_images/early_blight/early_blight_246.jpg,early_blight,Early Blight,Early Blight,Mild,1.36,93.2,False,51,54.0
+test_images/early_blight/early_blight_247.jpg,early_blight,Early Blight,Early Blight,Mild,0.6,92.4,False,51,54.1
+test_images/early_blight/early_blight_248.jpg,early_blight,Early Blight,Early Blight,Moderate,6.25,98.1,False,50,53.5
+test_images/early_blight/early_blight_249.jpg,early_blight,Early Blight,Early Blight,Mild,0.46,90.7,False,49,52.6
+test_images/healthy/healthy_000.jpg,healthy,Healthy,Healthy,,0.0,98.9,False,50,52.5
+test_images/healthy/healthy_001.jpg,healthy,Healthy,Healthy,,0.0,98.1,False,56,58.1
+test_images/healthy/healthy_002.jpg,healthy,Healthy,Healthy,,0.0,99.4,False,50,52.4
+test_images/healthy/healthy_003.jpg,healthy,Healthy,Healthy,,0.0,100.0,False,50,52.0
+test_images/healthy/healthy_004.jpg,healthy,Healthy,Healthy,,0.0,99.2,False,50,52.3
+test_images/healthy/healthy_005.jpg,healthy,Healthy,Healthy,,0.0,99.6,False,51,53.2
+test_images/healthy/healthy_006.jpg,healthy,Healthy,Healthy,,0.0,100.0,False,50,52.2
+test_images/healthy/healthy_007.jpg,healthy,Healthy,Healthy,,0.0,99.9,False,50,52.5
+test_images/healthy/healthy_008.jpg,healthy,Healthy,Healthy,,0.0,99.6,False,50,52.1
+test_images/healthy/healthy_009.jpg,healthy,Healthy,Healthy,,0.0,100.0,False,51,53.0
+test_images/healthy/healthy_010.jpg,healthy,Healthy,Healthy,,0.0,98.9,False,50,52.3
+test_images/healthy/healthy_011.jpg,healthy,Healthy,Healthy,,0.0,74.1,False,52,54.1
+test_images/healthy/healthy_012.jpg,healthy,Healthy,Healthy,,0.0,99.9,False,50,52.7
+test_images/healthy/healthy_013.jpg,healthy,Healthy,Healthy,,0.0,99.9,False,50,52.5
+test_images/healthy/healthy_014.jpg,healthy,Healthy,Healthy,,0.0,100.0,False,50,52.3
+test_images/healthy/healthy_015.jpg,healthy,Healthy,Healthy,,0.0,99.8,False,51,52.8
+test_images/healthy/healthy_016.jpg,healthy,Healthy,Healthy,,0.0,99.9,False,50,52.5
+test_images/healthy/healthy_017.jpg,healthy,Healthy,Healthy,,0.0,99.6,False,51,52.6
+test_images/healthy/healthy_018.jpg,healthy,Healthy,Healthy,,0.07,22.8,True,53,55.1
+test_images/healthy/healthy_019.jpg,healthy,Healthy,Healthy,,0.0,99.8,False,51,52.9
+test_images/healthy/healthy_020.jpg,healthy,Healthy,Healthy,,0.0,99.9,False,50,52.5
+test_images/healthy/healthy_021.jpg,healthy,Healthy,Healthy,,0.0,99.9,False,50,52.3
+test_images/healthy/healthy_022.jpg,healthy,Healthy,Healthy,,0.0,99.9,False,51,53.3
+test_images/healthy/healthy_023.jpg,healthy,Healthy,Healthy,,0.0,99.9,False,51,52.9
+test_images/healthy/healthy_024.jpg,healthy,Healthy,Healthy,,0.0,99.2,False,51,53.1
+test_images/healthy/healthy_025.jpg,healthy,Healthy,Early Blight,Mild,1.37,94.9,False,50,53.5
+test_images/healthy/healthy_026.jpg,healthy,Healthy,Healthy,,0.0,94.8,False,50,52.0
+test_images/healthy/healthy_027.jpg,healthy,Healthy,Healthy,,0.04,28.7,True,52,54.1
+test_images/healthy/healthy_028.jpg,healthy,Healthy,Healthy,,0.0,97.5,False,50,52.2
+test_images/healthy/healthy_029.jpg,healthy,Healthy,Healthy,,0.0,100.0,False,52,54.5
+test_images/healthy/healthy_030.jpg,healthy,Healthy,Healthy,,0.01,45.4,True,48,50.8
+test_images/healthy/healthy_031.jpg,healthy,Healthy,Healthy,,0.0,99.8,False,50,51.7
+test_images/healthy/healthy_032.jpg,healthy,Healthy,Healthy,,0.0,99.9,False,50,51.8
+test_images/healthy/healthy_033.jpg,healthy,Healthy,Healthy,,0.0,99.9,False,52,54.5
+test_images/healthy/healthy_034.jpg,healthy,Healthy,Healthy,,0.0,100.0,False,50,51.8
+test_images/healthy/healthy_035.jpg,healthy,Healthy,Healthy,,0.0,99.6,False,50,51.9
+test_images/healthy/healthy_036.jpg,healthy,Healthy,Healthy,,0.0,100.0,False,50,52.3
+test_images/healthy/healthy_037.jpg,healthy,Healthy,Healthy,,0.0,99.9,False,50,52.2
+test_images/healthy/healthy_038.jpg,healthy,Healthy,Healthy,,0.0,99.9,False,50,52.1
+test_images/healthy/healthy_039.jpg,healthy,Healthy,Healthy,,0.0,100.0,False,50,52.2
+test_images/healthy/healthy_040.jpg,healthy,Healthy,Healthy,,0.0,99.8,False,50,52.0
+test_images/healthy/healthy_041.jpg,healthy,Healthy,Healthy,,0.0,99.9,False,50,52.3
+test_images/healthy/healthy_042.jpg,healthy,Healthy,Healthy,,0.0,99.9,False,50,52.2
+test_images/healthy/healthy_043.jpg,healthy,Healthy,Healthy,,0.03,39.7,True,50,52.2
+test_images/healthy/healthy_044.jpg,healthy,Healthy,Healthy,,0.0,99.9,False,50,51.7
+test_images/healthy/healthy_045.jpg,healthy,Healthy,Healthy,,0.0,100.0,False,50,52.0
+test_images/healthy/healthy_046.jpg,healthy,Healthy,Healthy,,0.0,100.0,False,51,52.7
+test_images/healthy/healthy_047.jpg,healthy,Healthy,Healthy,,0.0,100.0,False,50,51.9
+test_images/healthy/healthy_048.jpg,healthy,Healthy,Healthy,,0.0,99.9,False,51,53.4
+test_images/healthy/healthy_049.jpg,healthy,Healthy,Healthy,,0.0,100.0,False,50,52.1
+test_images/healthy/healthy_050.jpg,healthy,Healthy,Healthy,,0.0,99.8,False,50,51.9
+test_images/healthy/healthy_051.jpg,healthy,Healthy,Healthy,,0.0,100.0,False,51,52.7
+test_images/healthy/healthy_052.jpg,healthy,Healthy,Healthy,,0.0,99.9,False,50,52.0
+test_images/healthy/healthy_053.jpg,healthy,Healthy,Healthy,,0.0,99.5,False,50,52.0
+test_images/healthy/healthy_054.jpg,healthy,Healthy,Healthy,,0.0,99.9,False,50,52.3
+test_images/healthy/healthy_055.jpg,healthy,Healthy,Healthy,,0.0,99.9,False,50,52.1
+test_images/healthy/healthy_056.jpg,healthy,Healthy,Healthy,,0.0,99.7,False,50,52.4
+test_images/healthy/healthy_057.jpg,healthy,Healthy,Healthy,,0.0,99.9,False,50,52.4
+test_images/healthy/healthy_058.jpg,healthy,Healthy,Healthy,,0.0,97.5,False,50,52.0
+test_images/healthy/healthy_059.jpg,healthy,Healthy,Healthy,,0.0,99.8,False,50,52.5
+test_images/healthy/healthy_060.jpg,healthy,Healthy,Healthy,,0.0,99.8,False,48,50.0
+test_images/healthy/healthy_061.jpg,healthy,Healthy,Healthy,,0.0,99.4,False,50,52.2
+test_images/healthy/healthy_062.jpg,healthy,Healthy,Healthy,,0.0,100.0,False,50,52.4
+test_images/healthy/healthy_063.jpg,healthy,Healthy,Healthy,,0.0,99.9,False,50,52.1
+test_images/healthy/healthy_064.jpg,healthy,Healthy,Healthy,,0.04,35.7,True,50,52.5
+test_images/healthy/healthy_065.jpg,healthy,Healthy,Healthy,,0.0,99.8,False,50,52.2
+test_images/healthy/healthy_066.jpg,healthy,Healthy,Healthy,,0.0,99.9,False,51,52.9
+test_images/healthy/healthy_067.jpg,healthy,Healthy,Early Blight,Mild,0.67,92.5,False,50,53.3
+test_images/healthy/healthy_068.jpg,healthy,Healthy,Healthy,,0.0,99.9,False,50,51.9
+test_images/healthy/healthy_069.jpg,healthy,Healthy,Healthy,,0.0,100.0,False,51,52.5
+test_images/healthy/healthy_070.jpg,healthy,Healthy,Healthy,,0.0,99.9,False,50,52.4
+test_images/healthy/healthy_071.jpg,healthy,Healthy,Healthy,,0.0,99.8,False,50,52.3
+test_images/healthy/healthy_072.jpg,healthy,Healthy,Healthy,,0.0,100.0,False,50,51.8
+test_images/healthy/healthy_073.jpg,healthy,Healthy,Healthy,,0.0,100.0,False,50,52.4
+test_images/healthy/healthy_074.jpg,healthy,Healthy,Healthy,,0.0,99.9,False,52,54.0
+test_images/healthy/healthy_075.jpg,healthy,Healthy,Early Blight,Mild,2.27,94.3,False,50,53.6
+test_images/healthy/healthy_076.jpg,healthy,Healthy,Healthy,,0.0,99.8,False,50,52.4
+test_images/healthy/healthy_077.jpg,healthy,Healthy,Healthy,,0.0,99.9,False,51,52.7
+test_images/healthy/healthy_078.jpg,healthy,Healthy,Healthy,,0.0,99.9,False,52,53.9
+test_images/healthy/healthy_079.jpg,healthy,Healthy,Healthy,,0.0,100.0,False,51,53.3
+test_images/healthy/healthy_080.jpg,healthy,Healthy,Healthy,,0.0,99.9,False,51,52.9
+test_images/healthy/healthy_081.jpg,healthy,Healthy,Healthy,,0.0,99.7,False,56,58.0
+test_images/healthy/healthy_082.jpg,healthy,Healthy,Healthy,,0.0,99.9,False,52,54.6
+test_images/healthy/healthy_083.jpg,healthy,Healthy,Healthy,,0.0,98.8,False,53,55.8
+test_images/healthy/healthy_084.jpg,healthy,Healthy,Healthy,,0.0,99.9,False,50,52.7
+test_images/healthy/healthy_085.jpg,healthy,Healthy,Healthy,,0.0,100.0,False,53,55.2
+test_images/healthy/healthy_086.jpg,healthy,Healthy,Healthy,,0.0,99.9,False,50,52.4
+test_images/healthy/healthy_087.jpg,healthy,Healthy,Healthy,,0.0,100.0,False,51,52.5
+test_images/healthy/healthy_088.jpg,healthy,Healthy,Healthy,,0.0,100.0,False,51,53.0
+test_images/healthy/healthy_089.jpg,healthy,Healthy,Healthy,,0.0,100.0,False,52,53.6
+test_images/healthy/healthy_090.jpg,healthy,Healthy,Healthy,,0.0,99.9,False,49,51.2
+test_images/healthy/healthy_091.jpg,healthy,Healthy,Healthy,,0.0,99.9,False,51,53.4
+test_images/healthy/healthy_092.jpg,healthy,Healthy,Early Blight,Mild,0.48,91.5,False,50,53.1
+test_images/healthy/healthy_093.jpg,healthy,Healthy,Healthy,,0.0,99.8,False,50,52.3
+test_images/healthy/healthy_094.jpg,healthy,Healthy,Healthy,,0.0,99.7,False,50,52.2
+test_images/healthy/healthy_095.jpg,healthy,Healthy,Healthy,,0.0,100.0,False,51,52.9
+test_images/healthy/healthy_096.jpg,healthy,Healthy,Healthy,,0.0,99.5,False,50,52.2
+test_images/healthy/healthy_097.jpg,healthy,Healthy,Healthy,,0.0,100.0,False,50,52.3
+test_images/healthy/healthy_098.jpg,healthy,Healthy,Healthy,,0.0,99.9,False,50,52.0
+test_images/healthy/healthy_099.jpg,healthy,Healthy,Healthy,,0.0,99.4,False,50,52.3
+test_images/healthy/healthy_100.jpg,healthy,Healthy,Healthy,,0.0,99.9,False,51,52.5
+test_images/healthy/healthy_101.jpg,healthy,Healthy,Healthy,,0.0,100.0,False,50,52.1
+test_images/healthy/healthy_102.jpg,healthy,Healthy,Healthy,,0.0,99.8,False,50,52.3
+test_images/healthy/healthy_103.jpg,healthy,Healthy,Healthy,,0.0,100.0,False,50,51.8
+test_images/healthy/healthy_104.jpg,healthy,Healthy,Healthy,,0.0,100.0,False,50,52.4
+test_images/healthy/healthy_105.jpg,healthy,Healthy,Healthy,,0.0,99.9,False,51,52.7
+test_images/healthy/healthy_106.jpg,healthy,Healthy,Healthy,,0.0,99.9,False,52,53.9
+test_images/healthy/healthy_107.jpg,healthy,Healthy,Healthy,,0.0,100.0,False,50,52.1
+test_images/healthy/healthy_108.jpg,healthy,Healthy,Healthy,,0.0,99.8,False,50,52.4
+test_images/healthy/healthy_109.jpg,healthy,Healthy,Healthy,,0.0,100.0,False,50,52.0
+test_images/healthy/healthy_110.jpg,healthy,Healthy,Healthy,,0.0,100.0,False,51,52.7
+test_images/healthy/healthy_111.jpg,healthy,Healthy,Healthy,,0.0,100.0,False,50,52.2
+test_images/healthy/healthy_112.jpg,healthy,Healthy,Healthy,,0.0,99.6,False,50,52.5
+test_images/healthy/healthy_113.jpg,healthy,Healthy,Early Blight,Mild,2.96,95.4,False,54,57.6
+test_images/healthy/healthy_114.jpg,healthy,Healthy,Healthy,,0.0,99.9,False,47,49.4
+test_images/healthy/healthy_115.jpg,healthy,Healthy,Healthy,,0.0,99.9,False,50,52.7
+test_images/healthy/healthy_116.jpg,healthy,Healthy,Healthy,,0.0,99.9,False,51,53.3
+test_images/healthy/healthy_117.jpg,healthy,Healthy,Healthy,,0.0,100.0,False,50,52.2
+test_images/healthy/healthy_118.jpg,healthy,Healthy,Healthy,,0.0,100.0,False,50,52.0
+test_images/healthy/healthy_119.jpg,healthy,Healthy,Healthy,,0.0,100.0,False,50,52.3
+test_images/healthy/healthy_120.jpg,healthy,Healthy,Healthy,,0.0,100.0,False,51,52.6
+test_images/healthy/healthy_121.jpg,healthy,Healthy,Healthy,,0.0,99.9,False,50,52.6
+test_images/healthy/healthy_122.jpg,healthy,Healthy,Healthy,,0.0,99.9,False,51,52.9
+test_images/healthy/healthy_123.jpg,healthy,Healthy,Healthy,,0.0,97.3,False,51,52.8
+test_images/healthy/healthy_124.jpg,healthy,Healthy,Healthy,,0.0,99.9,False,51,53.6
+test_images/healthy/healthy_125.jpg,healthy,Healthy,Healthy,,0.0,100.0,False,50,52.0
+test_images/healthy/healthy_126.jpg,healthy,Healthy,Healthy,,0.0,100.0,False,51,52.5
+test_images/healthy/healthy_127.jpg,healthy,Healthy,Healthy,,0.0,100.0,False,50,52.1
+test_images/healthy/healthy_128.jpg,healthy,Healthy,Healthy,,0.0,99.8,False,50,52.5
+test_images/healthy/healthy_129.jpg,healthy,Healthy,Healthy,,0.0,99.9,False,50,52.6
+test_images/healthy/healthy_130.jpg,healthy,Healthy,Healthy,,0.0,99.9,False,50,52.0
+test_images/healthy/healthy_131.jpg,healthy,Healthy,Early Blight,Moderate,3.26,96.6,False,49,52.7
+test_images/healthy/healthy_132.jpg,healthy,Healthy,Healthy,,0.0,99.9,False,51,53.2
+test_images/healthy/healthy_133.jpg,healthy,Healthy,Healthy,,0.0,100.0,False,50,52.3
+test_images/healthy/healthy_134.jpg,healthy,Healthy,Healthy,,0.0,99.8,False,50,52.2
+test_images/healthy/healthy_135.jpg,healthy,Healthy,Healthy,,0.06,18.6,True,50,52.7
+test_images/healthy/healthy_136.jpg,healthy,Healthy,Healthy,,0.0,98.7,False,50,51.8
+test_images/healthy/healthy_137.jpg,healthy,Healthy,Early Blight,Mild,0.84,91.5,False,50,53.9
+test_images/healthy/healthy_138.jpg,healthy,Healthy,Early Blight,Mild,0.49,88.4,False,47,50.9
+test_images/healthy/healthy_139.jpg,healthy,Healthy,Healthy,,0.0,99.7,False,48,50.4
+test_images/healthy/healthy_140.jpg,healthy,Healthy,Healthy,,0.0,99.9,False,52,53.6
+test_images/healthy/healthy_141.jpg,healthy,Healthy,Healthy,,0.0,99.9,False,55,57.9
+test_images/healthy/healthy_142.jpg,healthy,Healthy,Healthy,,0.0,99.7,False,53,56.3
+test_images/healthy/healthy_143.jpg,healthy,Healthy,Healthy,,0.0,99.9,False,52,53.9
+test_images/healthy/healthy_144.jpg,healthy,Healthy,Healthy,,0.02,36.5,True,50,53.0
+test_images/healthy/healthy_145.jpg,healthy,Healthy,Healthy,,0.0,99.7,False,51,52.9
+test_images/healthy/healthy_146.jpg,healthy,Healthy,Healthy,,0.0,99.9,False,53,54.7
+test_images/healthy/healthy_147.jpg,healthy,Healthy,Healthy,,0.0,100.0,False,63,64.9
+test_images/healthy/healthy_148.jpg,healthy,Healthy,Healthy,,0.0,99.9,False,54,56.6
+test_images/healthy/healthy_149.jpg,healthy,Healthy,Healthy,,0.0,100.0,False,68,71.6
+test_images/healthy/healthy_150.jpg,healthy,Healthy,Healthy,,0.0,99.9,False,54,56.0
+test_images/healthy/healthy_151.jpg,healthy,Healthy,Healthy,,0.0,99.9,False,53,55.7
+test_images/healthy/healthy_152.jpg,healthy,Healthy,Healthy,,0.0,99.8,False,54,56.2
+test_images/healthy/healthy_153.jpg,healthy,Healthy,Healthy,,0.0,100.0,False,54,56.9
+test_images/healthy/healthy_154.jpg,healthy,Healthy,Healthy,,0.0,99.8,False,54,56.3
+test_images/healthy/healthy_155.jpg,healthy,Healthy,Healthy,,0.0,99.9,False,54,56.4
+test_images/healthy/healthy_156.jpg,healthy,Healthy,Healthy,,0.0,100.0,False,52,54.8
+test_images/healthy/healthy_157.jpg,healthy,Healthy,Healthy,,0.0,99.9,False,53,55.1
+test_images/healthy/healthy_158.jpg,healthy,Healthy,Healthy,,0.0,99.9,False,52,54.8
+test_images/healthy/healthy_159.jpg,healthy,Healthy,Healthy,,0.0,99.7,False,53,55.1
+test_images/healthy/healthy_160.jpg,healthy,Healthy,Healthy,,0.0,99.9,False,52,54.7
+test_images/healthy/healthy_161.jpg,healthy,Healthy,Healthy,,0.0,99.9,False,52,54.0
+test_images/healthy/healthy_162.jpg,healthy,Healthy,Healthy,,0.0,100.0,False,52,54.2
+test_images/healthy/healthy_163.jpg,healthy,Healthy,Healthy,,0.0,99.9,False,52,54.4
+test_images/healthy/healthy_164.jpg,healthy,Healthy,Healthy,,0.0,99.9,False,52,53.9
+test_images/healthy/healthy_165.jpg,healthy,Healthy,Healthy,,0.0,100.0,False,51,53.7
+test_images/healthy/healthy_166.jpg,healthy,Healthy,Healthy,,0.0,99.8,False,51,53.4
+test_images/healthy/healthy_167.jpg,healthy,Healthy,Healthy,,0.0,99.9,False,52,53.9
+test_images/healthy/healthy_168.jpg,healthy,Healthy,Healthy,,0.0,99.4,False,54,56.0
+test_images/healthy/healthy_169.jpg,healthy,Healthy,Healthy,,0.0,97.5,False,52,54.3
+test_images/healthy/healthy_170.jpg,healthy,Healthy,Healthy,,0.0,99.9,False,52,54.2
+test_images/healthy/healthy_171.jpg,healthy,Healthy,Healthy,,0.0,99.9,False,51,53.6
+test_images/healthy/healthy_172.jpg,healthy,Healthy,Healthy,,0.0,99.8,False,61,63.7
+test_images/healthy/healthy_173.jpg,healthy,Healthy,Healthy,,0.0,99.9,False,52,54.3
+test_images/healthy/healthy_174.jpg,healthy,Healthy,Healthy,,0.0,100.0,False,50,52.6
+test_images/healthy/healthy_175.jpg,healthy,Healthy,Healthy,,0.0,99.9,False,50,52.4
+test_images/healthy/healthy_176.jpg,healthy,Healthy,Healthy,,0.0,99.9,False,51,53.3
+test_images/healthy/healthy_177.jpg,healthy,Healthy,Healthy,,0.0,99.9,False,49,51.3
+test_images/healthy/healthy_178.jpg,healthy,Healthy,Healthy,,0.0,99.9,False,52,54.5
+test_images/healthy/healthy_179.jpg,healthy,Healthy,Healthy,,0.0,99.9,False,51,53.7
+test_images/healthy/healthy_180.jpg,healthy,Healthy,Healthy,,0.0,100.0,False,52,53.8
+test_images/healthy/healthy_181.jpg,healthy,Healthy,Healthy,,0.0,100.0,False,51,52.6
+test_images/healthy/healthy_182.jpg,healthy,Healthy,Healthy,,0.0,99.9,False,52,53.8
+test_images/healthy/healthy_183.jpg,healthy,Healthy,Healthy,,0.0,99.9,False,51,53.3
+test_images/healthy/healthy_184.jpg,healthy,Healthy,Healthy,,0.0,99.5,False,51,52.8
+test_images/healthy/healthy_185.jpg,healthy,Healthy,Healthy,,0.0,99.9,False,51,53.0
+test_images/healthy/healthy_186.jpg,healthy,Healthy,Healthy,,0.0,99.9,False,51,53.4
+test_images/healthy/healthy_187.jpg,healthy,Healthy,Healthy,,0.0,99.9,False,51,53.2
+test_images/healthy/healthy_188.jpg,healthy,Healthy,Healthy,,0.0,99.8,False,52,53.9
+test_images/healthy/healthy_189.jpg,healthy,Healthy,Healthy,,0.0,99.6,False,51,53.8
+test_images/healthy/healthy_190.jpg,healthy,Healthy,Healthy,,0.0,98.5,False,52,53.9
+test_images/healthy/healthy_191.jpg,healthy,Healthy,Healthy,,0.0,100.0,False,52,53.8
+test_images/healthy/healthy_192.jpg,healthy,Healthy,Healthy,,0.0,99.9,False,52,54.0
+test_images/healthy/healthy_193.jpg,healthy,Healthy,Healthy,,0.0,99.7,False,52,53.8
+test_images/healthy/healthy_194.jpg,healthy,Healthy,Healthy,,0.0,100.0,False,51,53.6
+test_images/healthy/healthy_195.jpg,healthy,Healthy,Healthy,,0.0,97.0,False,52,54.8
+test_images/healthy/healthy_196.jpg,healthy,Healthy,Healthy,,0.0,99.9,False,53,54.8
+test_images/healthy/healthy_197.jpg,healthy,Healthy,Healthy,,0.0,99.8,False,51,53.3
+test_images/healthy/healthy_198.jpg,healthy,Healthy,Healthy,,0.0,100.0,False,51,53.3
+test_images/healthy/healthy_199.jpg,healthy,Healthy,Healthy,,0.0,99.9,False,52,53.7
+test_images/healthy/healthy_200.jpg,healthy,Healthy,Healthy,,0.0,99.9,False,52,54.2
+test_images/healthy/healthy_201.jpg,healthy,Healthy,Healthy,,0.0,99.9,False,52,54.1
+test_images/healthy/healthy_202.jpg,healthy,Healthy,Healthy,,0.0,100.0,False,52,54.3
+test_images/healthy/healthy_203.jpg,healthy,Healthy,Healthy,,0.0,99.9,False,52,53.8
+test_images/healthy/healthy_204.jpg,healthy,Healthy,Early Blight,Mild,0.32,88.8,False,52,55.8
+test_images/healthy/healthy_205.jpg,healthy,Healthy,Healthy,,0.0,99.6,False,49,51.9
+test_images/healthy/healthy_206.jpg,healthy,Healthy,Healthy,,0.0,99.9,False,51,53.2
+test_images/healthy/healthy_207.jpg,healthy,Healthy,Healthy,,0.0,75.6,False,52,54.2
+test_images/healthy/healthy_208.jpg,healthy,Healthy,Healthy,,0.0,99.7,False,55,57.4
+test_images/healthy/healthy_209.jpg,healthy,Healthy,Healthy,,0.0,99.5,False,56,58.7
+test_images/healthy/healthy_210.jpg,healthy,Healthy,Healthy,,0.0,100.0,False,55,57.8
+test_images/healthy/healthy_211.jpg,healthy,Healthy,Healthy,,0.0,99.9,False,56,58.1
+test_images/healthy/healthy_212.jpg,healthy,Healthy,Healthy,,0.0,100.0,False,57,59.1
+test_images/healthy/healthy_213.jpg,healthy,Healthy,Healthy,,0.0,99.9,False,55,57.6
+test_images/healthy/healthy_214.jpg,healthy,Healthy,Healthy,,0.0,99.7,False,56,57.9
+test_images/healthy/healthy_215.jpg,healthy,Healthy,Healthy,,0.0,99.9,False,53,55.2
+test_images/healthy/healthy_216.jpg,healthy,Healthy,Healthy,,0.0,100.0,False,53,55.2
+test_images/healthy/healthy_217.jpg,healthy,Healthy,Healthy,,0.0,100.0,False,52,54.8
+test_images/healthy/healthy_218.jpg,healthy,Healthy,Healthy,,0.0,99.7,False,51,53.5
+test_images/healthy/healthy_219.jpg,healthy,Healthy,Healthy,,0.0,99.9,False,52,54.8
+test_images/healthy/healthy_220.jpg,healthy,Healthy,Healthy,,0.0,99.9,False,52,54.2
+test_images/healthy/healthy_221.jpg,healthy,Healthy,Healthy,,0.0,100.0,False,52,54.1
+test_images/healthy/healthy_222.jpg,healthy,Healthy,Healthy,,0.0,100.0,False,53,55.0
+test_images/healthy/healthy_223.jpg,healthy,Healthy,Healthy,,0.0,100.0,False,52,53.9
+test_images/healthy/healthy_224.jpg,healthy,Healthy,Healthy,,0.0,100.0,False,53,54.9
+test_images/healthy/healthy_225.jpg,healthy,Healthy,Healthy,,0.0,98.3,False,52,54.6
+test_images/healthy/healthy_226.jpg,healthy,Healthy,Healthy,,0.0,99.9,False,56,58.0
+test_images/healthy/healthy_227.jpg,healthy,Healthy,Healthy,,0.0,100.0,False,57,58.8
+test_images/healthy/healthy_228.jpg,healthy,Healthy,Healthy,,0.02,43.4,True,67,69.5
+test_images/healthy/healthy_229.jpg,healthy,Healthy,Healthy,,0.0,100.0,False,53,55.1
+test_images/healthy/healthy_230.jpg,healthy,Healthy,Healthy,,0.17,17.3,True,53,56.2
+test_images/healthy/healthy_231.jpg,healthy,Healthy,Healthy,,0.0,97.5,False,52,54.7
+test_images/healthy/healthy_232.jpg,healthy,Healthy,Healthy,,0.0,99.9,False,57,59.6
+test_images/healthy/healthy_233.jpg,healthy,Healthy,Healthy,,0.0,100.0,False,56,58.1
+test_images/healthy/healthy_234.jpg,healthy,Healthy,Healthy,,0.17,13.0,True,54,56.8
+test_images/healthy/healthy_235.jpg,healthy,Healthy,Healthy,,0.0,99.9,False,62,64.9
+test_images/healthy/healthy_236.jpg,healthy,Healthy,Healthy,,0.0,99.9,False,53,55.2
+test_images/healthy/healthy_237.jpg,healthy,Healthy,Healthy,,0.0,99.9,False,60,62.5
+test_images/healthy/healthy_238.jpg,healthy,Healthy,Healthy,,0.0,99.8,False,57,59.8
+test_images/healthy/healthy_239.jpg,healthy,Healthy,Healthy,,0.0,99.9,False,56,59.0
+test_images/healthy/healthy_240.jpg,healthy,Healthy,Healthy,,0.0,100.0,False,57,59.5
+test_images/healthy/healthy_241.jpg,healthy,Healthy,Healthy,,0.0,99.9,False,61,62.8
+test_images/healthy/healthy_242.jpg,healthy,Healthy,Healthy,,0.0,100.0,False,55,57.2
+test_images/healthy/healthy_243.jpg,healthy,Healthy,Healthy,,0.0,99.3,False,55,57.2
+test_images/healthy/healthy_244.jpg,healthy,Healthy,Healthy,,0.0,99.9,False,61,63.7
+test_images/healthy/healthy_245.jpg,healthy,Healthy,Healthy,,0.0,99.9,False,62,63.9
+test_images/healthy/healthy_246.jpg,healthy,Healthy,Healthy,,0.0,100.0,False,53,55.3
+test_images/healthy/healthy_247.jpg,healthy,Healthy,Healthy,,0.0,97.0,False,52,54.7
+test_images/healthy/healthy_248.jpg,healthy,Healthy,Healthy,,0.0,99.9,False,52,54.1
+test_images/healthy/healthy_249.jpg,healthy,Healthy,Healthy,,0.0,99.9,False,56,58.3
+test_images/other_late_blight/other_late_blight_000.jpg,other_late_blight,(not early blight),Early Blight,Moderate,5.63,98.0,False,54,58.0
+test_images/other_late_blight/other_late_blight_001.jpg,other_late_blight,(not early blight),Early Blight,Severe,20.63,97.5,False,55,58.7
+test_images/other_late_blight/other_late_blight_002.jpg,other_late_blight,(not early blight),Healthy,,0.02,40.3,True,49,50.9
+test_images/other_late_blight/other_late_blight_003.jpg,other_late_blight,(not early blight),Early Blight,Moderate,5.14,97.0,False,52,56.0
+test_images/other_late_blight/other_late_blight_004.jpg,other_late_blight,(not early blight),Early Blight,Moderate,7.87,97.7,False,50,54.1
+test_images/other_late_blight/other_late_blight_005.jpg,other_late_blight,(not early blight),Early Blight,Severe,16.82,98.2,False,50,53.2
+test_images/other_late_blight/other_late_blight_006.jpg,other_late_blight,(not early blight),Early Blight,Severe,28.18,99.1,False,52,56.3
+test_images/other_late_blight/other_late_blight_007.jpg,other_late_blight,(not early blight),Early Blight,Mild,2.14,94.4,False,49,52.2
+test_images/other_late_blight/other_late_blight_008.jpg,other_late_blight,(not early blight),Early Blight,Mild,0.89,90.1,False,52,55.1
+test_images/other_late_blight/other_late_blight_009.jpg,other_late_blight,(not early blight),Early Blight,Mild,0.61,85.8,False,53,56.1
+test_images/other_late_blight/other_late_blight_010.jpg,other_late_blight,(not early blight),Early Blight,Mild,0.68,90.2,False,52,55.8
+test_images/other_late_blight/other_late_blight_011.jpg,other_late_blight,(not early blight),Early Blight,Severe,10.71,97.0,False,52,55.9
+test_images/other_late_blight/other_late_blight_012.jpg,other_late_blight,(not early blight),Early Blight,Moderate,3.82,96.6,False,52,55.5
+test_images/other_late_blight/other_late_blight_013.jpg,other_late_blight,(not early blight),Early Blight,Moderate,9.28,95.3,False,54,57.0
+test_images/other_late_blight/other_late_blight_014.jpg,other_late_blight,(not early blight),Early Blight,Severe,18.65,99.0,False,55,58.7
+test_images/other_late_blight/other_late_blight_015.jpg,other_late_blight,(not early blight),Early Blight,Moderate,4.12,97.5,False,50,53.4
+test_images/other_late_blight/other_late_blight_016.jpg,other_late_blight,(not early blight),Early Blight,Moderate,8.26,97.3,False,54,58.1
+test_images/other_late_blight/other_late_blight_017.jpg,other_late_blight,(not early blight),Early Blight,Moderate,3.25,96.5,False,54,57.9
+test_images/other_late_blight/other_late_blight_018.jpg,other_late_blight,(not early blight),Early Blight,Mild,2.42,95.1,False,53,56.2
+test_images/other_late_blight/other_late_blight_019.jpg,other_late_blight,(not early blight),Early Blight,Moderate,5.51,98.2,False,53,56.7
+test_images/other_late_blight/other_late_blight_020.jpg,other_late_blight,(not early blight),Early Blight,Moderate,4.4,95.4,False,51,54.0
+test_images/other_late_blight/other_late_blight_021.jpg,other_late_blight,(not early blight),Early Blight,Severe,37.24,98.9,False,51,55.2
+test_images/other_late_blight/other_late_blight_022.jpg,other_late_blight,(not early blight),Healthy,,0.02,30.7,True,51,53.1
+test_images/other_late_blight/other_late_blight_023.jpg,other_late_blight,(not early blight),Early Blight,Moderate,4.09,97.0,False,52,55.5
+test_images/other_late_blight/other_late_blight_024.jpg,other_late_blight,(not early blight),Early Blight,Mild,1.52,96.3,False,54,56.7
+test_images/other_late_blight/other_late_blight_025.jpg,other_late_blight,(not early blight),Early Blight,Moderate,7.24,97.2,False,53,57.1
+test_images/other_late_blight/other_late_blight_026.jpg,other_late_blight,(not early blight),Early Blight,Severe,10.28,98.0,False,51,54.6
+test_images/other_late_blight/other_late_blight_027.jpg,other_late_blight,(not early blight),Early Blight,Moderate,4.26,96.0,False,52,55.2
+test_images/other_late_blight/other_late_blight_028.jpg,other_late_blight,(not early blight),Early Blight,Severe,17.07,97.5,False,50,53.6
+test_images/other_late_blight/other_late_blight_029.jpg,other_late_blight,(not early blight),Early Blight,Severe,21.73,98.3,False,52,57.8
+test_images/other_late_blight/other_late_blight_030.jpg,other_late_blight,(not early blight),Early Blight,Moderate,7.95,96.2,False,58,62.0
+test_images/other_late_blight/other_late_blight_031.jpg,other_late_blight,(not early blight),Early Blight,Moderate,5.88,97.4,False,56,59.3
+test_images/other_late_blight/other_late_blight_032.jpg,other_late_blight,(not early blight),Early Blight,Moderate,3.17,96.8,False,54,57.6
+test_images/other_late_blight/other_late_blight_033.jpg,other_late_blight,(not early blight),Early Blight,Severe,11.09,96.5,False,53,56.9
+test_images/other_late_blight/other_late_blight_034.jpg,other_late_blight,(not early blight),Early Blight,Mild,2.17,93.0,False,65,68.1
+test_images/other_late_blight/other_late_blight_035.jpg,other_late_blight,(not early blight),Early Blight,Severe,16.93,98.3,False,61,65.7
+test_images/other_late_blight/other_late_blight_036.jpg,other_late_blight,(not early blight),Early Blight,Moderate,7.61,95.8,False,53,57.6
+test_images/other_late_blight/other_late_blight_037.jpg,other_late_blight,(not early blight),Early Blight,Severe,33.89,98.9,False,53,57.0
+test_images/other_late_blight/other_late_blight_038.jpg,other_late_blight,(not early blight),Early Blight,Mild,2.0,93.9,False,54,56.9
+test_images/other_late_blight/other_late_blight_039.jpg,other_late_blight,(not early blight),Early Blight,Severe,13.55,97.5,False,51,55.0
+test_images/other_late_blight/other_late_blight_040.jpg,other_late_blight,(not early blight),Early Blight,Mild,2.52,94.8,False,51,53.8
+test_images/other_late_blight/other_late_blight_041.jpg,other_late_blight,(not early blight),Early Blight,Severe,19.79,98.8,False,53,57.3
+test_images/other_late_blight/other_late_blight_042.jpg,other_late_blight,(not early blight),Early Blight,Mild,2.42,96.7,False,51,54.1
+test_images/other_late_blight/other_late_blight_043.jpg,other_late_blight,(not early blight),Healthy,,0.0,93.2,False,53,54.8
+test_images/other_late_blight/other_late_blight_044.jpg,other_late_blight,(not early blight),Early Blight,Severe,17.99,98.4,False,53,57.3
+test_images/other_late_blight/other_late_blight_045.jpg,other_late_blight,(not early blight),Early Blight,Severe,16.81,98.1,False,49,52.3
+test_images/other_late_blight/other_late_blight_046.jpg,other_late_blight,(not early blight),Early Blight,Severe,19.96,96.8,False,50,54.0
+test_images/other_late_blight/other_late_blight_047.jpg,other_late_blight,(not early blight),Early Blight,Moderate,3.76,93.1,False,50,52.8
+test_images/other_late_blight/other_late_blight_048.jpg,other_late_blight,(not early blight),Early Blight,Severe,20.13,98.7,False,52,56.0
+test_images/other_late_blight/other_late_blight_049.jpg,other_late_blight,(not early blight),Early Blight,Mild,2.01,92.6,False,49,52.6
+test_images/other_late_blight/other_late_blight_050.jpg,other_late_blight,(not early blight),Early Blight,Moderate,4.2,96.8,False,52,55.7
+test_images/other_late_blight/other_late_blight_051.jpg,other_late_blight,(not early blight),Early Blight,Moderate,3.25,94.8,False,50,53.2
+test_images/other_late_blight/other_late_blight_052.jpg,other_late_blight,(not early blight),Early Blight,Severe,11.34,96.4,False,55,58.4
+test_images/other_late_blight/other_late_blight_053.jpg,other_late_blight,(not early blight),Healthy,,0.0,99.9,False,53,55.0
+test_images/other_late_blight/other_late_blight_054.jpg,other_late_blight,(not early blight),Healthy,,0.0,98.5,False,58,59.7
+test_images/other_late_blight/other_late_blight_055.jpg,other_late_blight,(not early blight),Early Blight,Severe,20.99,98.2,False,52,55.8
+test_images/other_late_blight/other_late_blight_056.jpg,other_late_blight,(not early blight),Early Blight,Mild,1.59,95.2,False,49,52.1
+test_images/other_late_blight/other_late_blight_057.jpg,other_late_blight,(not early blight),Early Blight,Mild,2.69,97.1,False,54,57.2
+test_images/other_late_blight/other_late_blight_058.jpg,other_late_blight,(not early blight),Early Blight,Mild,2.35,96.5,False,53,56.6
+test_images/other_late_blight/other_late_blight_059.jpg,other_late_blight,(not early blight),Early Blight,Mild,1.4,95.8,False,49,52.6
+test_images/other_late_blight/other_late_blight_060.jpg,other_late_blight,(not early blight),Early Blight,Moderate,3.29,94.9,False,50,53.4
+test_images/other_late_blight/other_late_blight_061.jpg,other_late_blight,(not early blight),Early Blight,Mild,0.22,89.9,False,51,54.6
+test_images/other_late_blight/other_late_blight_062.jpg,other_late_blight,(not early blight),Early Blight,Mild,2.04,96.5,False,53,56.0
+test_images/other_late_blight/other_late_blight_063.jpg,other_late_blight,(not early blight),Healthy,,0.0,99.9,False,51,52.8
+test_images/other_late_blight/other_late_blight_064.jpg,other_late_blight,(not early blight),Early Blight,Mild,1.07,95.2,False,52,55.1
+test_images/other_late_blight/other_late_blight_065.jpg,other_late_blight,(not early blight),Early Blight,Severe,19.81,98.4,False,52,56.2
+test_images/other_late_blight/other_late_blight_066.jpg,other_late_blight,(not early blight),Early Blight,Severe,17.18,96.3,False,51,54.4
+test_images/other_late_blight/other_late_blight_067.jpg,other_late_blight,(not early blight),Early Blight,Severe,11.48,97.1,False,52,55.8
+test_images/other_late_blight/other_late_blight_068.jpg,other_late_blight,(not early blight),Early Blight,Moderate,7.63,98.0,False,51,54.7
+test_images/other_late_blight/other_late_blight_069.jpg,other_late_blight,(not early blight),Early Blight,Moderate,3.53,96.5,False,51,54.7
+test_images/other_late_blight/other_late_blight_070.jpg,other_late_blight,(not early blight),Early Blight,Severe,10.73,97.3,False,52,55.6
+test_images/other_late_blight/other_late_blight_071.jpg,other_late_blight,(not early blight),Healthy,,0.16,19.7,True,55,57.0
+test_images/other_late_blight/other_late_blight_072.jpg,other_late_blight,(not early blight),Early Blight,Severe,24.05,97.7,False,54,57.5
+test_images/other_late_blight/other_late_blight_073.jpg,other_late_blight,(not early blight),Early Blight,Moderate,3.61,92.9,False,48,51.4
+test_images/other_late_blight/other_late_blight_074.jpg,other_late_blight,(not early blight),Early Blight,Mild,1.06,95.2,False,50,53.0
+test_images/other_septoria/other_septoria_000.jpg,other_septoria,(not early blight),Early Blight,Mild,1.04,89.1,False,51,54.5
+test_images/other_septoria/other_septoria_001.jpg,other_septoria,(not early blight),Early Blight,Mild,2.1,90.9,False,52,55.4
+test_images/other_septoria/other_septoria_002.jpg,other_septoria,(not early blight),Early Blight,Mild,0.58,91.4,False,53,56.0
+test_images/other_septoria/other_septoria_003.jpg,other_septoria,(not early blight),Early Blight,Mild,1.62,89.8,False,51,54.7
+test_images/other_septoria/other_septoria_004.jpg,other_septoria,(not early blight),Early Blight,Moderate,3.02,94.2,False,52,55.6
+test_images/other_septoria/other_septoria_005.jpg,other_septoria,(not early blight),Early Blight,Mild,2.98,96.3,False,49,52.1
+test_images/other_septoria/other_septoria_006.jpg,other_septoria,(not early blight),Early Blight,Moderate,5.36,93.6,False,51,54.5
+test_images/other_septoria/other_septoria_007.jpg,other_septoria,(not early blight),Early Blight,Mild,0.97,92.8,False,50,53.6
+test_images/other_septoria/other_septoria_008.jpg,other_septoria,(not early blight),Early Blight,Mild,0.74,88.7,False,52,55.4
+test_images/other_septoria/other_septoria_009.jpg,other_septoria,(not early blight),Early Blight,Mild,1.21,89.8,False,52,55.2
+test_images/other_septoria/other_septoria_010.jpg,other_septoria,(not early blight),Healthy,,0.0,85.6,False,52,54.4
+test_images/other_septoria/other_septoria_011.jpg,other_septoria,(not early blight),Early Blight,Mild,0.21,81.8,False,54,57.8
+test_images/other_septoria/other_septoria_012.jpg,other_septoria,(not early blight),Early Blight,Mild,0.23,87.4,False,50,53.7
+test_images/other_septoria/other_septoria_013.jpg,other_septoria,(not early blight),Healthy,,0.02,28.0,True,51,52.9
+test_images/other_septoria/other_septoria_014.jpg,other_septoria,(not early blight),Healthy,,0.13,22.0,True,52,54.0
+test_images/other_septoria/other_septoria_015.jpg,other_septoria,(not early blight),Early Blight,Mild,2.77,91.2,False,54,57.0
+test_images/other_septoria/other_septoria_016.jpg,other_septoria,(not early blight),Early Blight,Mild,2.48,95.2,False,54,57.0
+test_images/other_septoria/other_septoria_017.jpg,other_septoria,(not early blight),Early Blight,Mild,1.23,93.7,False,52,55.3
+test_images/other_septoria/other_septoria_018.jpg,other_septoria,(not early blight),Early Blight,Moderate,3.78,95.2,False,50,54.0
+test_images/other_septoria/other_septoria_019.jpg,other_septoria,(not early blight),Early Blight,Mild,1.32,95.3,False,54,57.6
+test_images/other_septoria/other_septoria_020.jpg,other_septoria,(not early blight),Healthy,,0.01,46.8,True,54,56.4
+test_images/other_septoria/other_septoria_021.jpg,other_septoria,(not early blight),Early Blight,Mild,0.34,86.9,False,54,57.9
+test_images/other_septoria/other_septoria_022.jpg,other_septoria,(not early blight),Early Blight,Moderate,6.99,96.1,False,50,53.2
+test_images/other_septoria/other_septoria_023.jpg,other_septoria,(not early blight),Early Blight,Mild,0.97,93.9,False,52,55.1
+test_images/other_septoria/other_septoria_024.jpg,other_septoria,(not early blight),Healthy,,0.13,23.3,True,49,51.4
+test_images/other_septoria/other_septoria_025.jpg,other_septoria,(not early blight),Early Blight,Mild,0.37,92.5,False,51,54.5
+test_images/other_septoria/other_septoria_026.jpg,other_septoria,(not early blight),Early Blight,Mild,0.51,91.4,False,52,55.0
+test_images/other_septoria/other_septoria_027.jpg,other_septoria,(not early blight),Healthy,,0.0,97.4,False,52,53.9
+test_images/other_septoria/other_septoria_028.jpg,other_septoria,(not early blight),Early Blight,Mild,0.9,89.7,False,52,55.3
+test_images/other_septoria/other_septoria_029.jpg,other_septoria,(not early blight),Healthy,,0.03,22.2,True,52,54.0
+test_images/other_septoria/other_septoria_030.jpg,other_septoria,(not early blight),Early Blight,Moderate,4.99,93.6,False,52,55.5
+test_images/other_septoria/other_septoria_031.jpg,other_septoria,(not early blight),Early Blight,Mild,2.5,92.1,False,53,56.4
+test_images/other_septoria/other_septoria_032.jpg,other_septoria,(not early blight),Healthy,,0.0,99.7,False,50,52.3
+test_images/other_septoria/other_septoria_033.jpg,other_septoria,(not early blight),Early Blight,Mild,2.62,89.7,False,52,55.1
+test_images/other_septoria/other_septoria_034.jpg,other_septoria,(not early blight),Early Blight,Mild,0.33,82.5,False,53,56.0
+test_images/other_septoria/other_septoria_035.jpg,other_septoria,(not early blight),Early Blight,Mild,2.54,93.3,False,52,55.2
+test_images/other_septoria/other_septoria_036.jpg,other_septoria,(not early blight),Early Blight,Mild,0.55,91.9,False,52,55.0
+test_images/other_septoria/other_septoria_037.jpg,other_septoria,(not early blight),Early Blight,Mild,1.28,88.8,False,49,52.9
+test_images/other_septoria/other_septoria_038.jpg,other_septoria,(not early blight),Early Blight,Mild,1.93,94.7,False,52,55.4
+test_images/other_septoria/other_septoria_039.jpg,other_septoria,(not early blight),Early Blight,Moderate,5.45,94.8,False,51,54.9
+test_images/other_septoria/other_septoria_040.jpg,other_septoria,(not early blight),Early Blight,Mild,1.78,94.0,False,51,54.8
+test_images/other_septoria/other_septoria_041.jpg,other_septoria,(not early blight),Early Blight,Mild,0.58,88.7,False,53,56.0
+test_images/other_septoria/other_septoria_042.jpg,other_septoria,(not early blight),Early Blight,Mild,1.6,94.1,False,53,55.9
+test_images/other_septoria/other_septoria_043.jpg,other_septoria,(not early blight),Healthy,,0.0,73.5,False,52,54.4
+test_images/other_septoria/other_septoria_044.jpg,other_septoria,(not early blight),Early Blight,Mild,1.95,88.9,False,53,56.4
+test_images/other_septoria/other_septoria_045.jpg,other_septoria,(not early blight),Early Blight,Mild,0.5,93.7,False,53,56.9
+test_images/other_septoria/other_septoria_046.jpg,other_septoria,(not early blight),Healthy,,0.0,99.8,False,54,55.7
+test_images/other_septoria/other_septoria_047.jpg,other_septoria,(not early blight),Early Blight,Mild,1.67,95.4,False,53,56.2
+test_images/other_septoria/other_septoria_048.jpg,other_septoria,(not early blight),Early Blight,Mild,1.68,94.7,False,51,54.7
+test_images/other_septoria/other_septoria_049.jpg,other_septoria,(not early blight),Early Blight,Mild,1.61,90.7,False,54,57.5
+test_images/other_septoria/other_septoria_050.jpg,other_septoria,(not early blight),Early Blight,Mild,2.74,93.3,False,51,54.5
+test_images/other_septoria/other_septoria_051.jpg,other_septoria,(not early blight),Early Blight,Mild,0.21,91.7,False,53,56.3
+test_images/other_septoria/other_septoria_052.jpg,other_septoria,(not early blight),Early Blight,Mild,0.25,82.5,False,53,56.2
+test_images/other_septoria/other_septoria_053.jpg,other_septoria,(not early blight),Healthy,,0.0,99.8,False,53,55.1
+test_images/other_septoria/other_septoria_054.jpg,other_septoria,(not early blight),Early Blight,Mild,0.79,94.6,False,54,57.1
+test_images/other_septoria/other_septoria_055.jpg,other_septoria,(not early blight),Early Blight,Mild,1.36,92.6,False,54,57.7
+test_images/other_septoria/other_septoria_056.jpg,other_septoria,(not early blight),Early Blight,Moderate,3.84,93.7,False,51,53.9
+test_images/other_septoria/other_septoria_057.jpg,other_septoria,(not early blight),Early Blight,Mild,1.98,94.5,False,53,56.2
+test_images/other_septoria/other_septoria_058.jpg,other_septoria,(not early blight),Early Blight,Mild,1.51,93.8,False,50,53.3
+test_images/other_septoria/other_septoria_059.jpg,other_septoria,(not early blight),Early Blight,Mild,0.74,92.0,False,52,55.8
+test_images/other_septoria/other_septoria_060.jpg,other_septoria,(not early blight),Early Blight,Mild,1.31,93.7,False,53,56.1
+test_images/other_septoria/other_septoria_061.jpg,other_septoria,(not early blight),Early Blight,Mild,0.68,91.8,False,53,56.3
+test_images/other_septoria/other_septoria_062.jpg,other_septoria,(not early blight),Early Blight,Mild,1.39,88.4,False,52,55.4
+test_images/other_septoria/other_septoria_063.jpg,other_septoria,(not early blight),Early Blight,Mild,1.76,91.1,False,52,55.7
+test_images/other_septoria/other_septoria_064.jpg,other_septoria,(not early blight),Early Blight,Mild,0.29,86.3,False,52,55.3
+test_images/other_septoria/other_septoria_065.jpg,other_septoria,(not early blight),Early Blight,Mild,2.55,95.4,False,52,55.3
+test_images/other_septoria/other_septoria_066.jpg,other_septoria,(not early blight),Early Blight,Mild,1.92,95.5,False,51,54.5
+test_images/other_septoria/other_septoria_067.jpg,other_septoria,(not early blight),Early Blight,Mild,0.83,90.0,False,52,55.9
+test_images/other_septoria/other_septoria_068.jpg,other_septoria,(not early blight),Early Blight,Mild,0.52,86.9,False,53,55.8
+test_images/other_septoria/other_septoria_069.jpg,other_septoria,(not early blight),Early Blight,Moderate,3.19,91.1,False,66,69.7
+test_images/other_septoria/other_septoria_070.jpg,other_septoria,(not early blight),Early Blight,Mild,0.34,89.3,False,53,56.4
+test_images/other_septoria/other_septoria_071.jpg,other_septoria,(not early blight),Early Blight,Mild,0.34,85.8,False,52,55.5
+test_images/other_septoria/other_septoria_072.jpg,other_septoria,(not early blight),Healthy,,0.0,90.1,False,51,53.3
+test_images/other_septoria/other_septoria_073.jpg,other_septoria,(not early blight),Early Blight,Mild,1.53,87.8,False,53,57.0
+test_images/other_septoria/other_septoria_074.jpg,other_septoria,(not early blight),Early Blight,Mild,0.39,87.3,False,49,52.1

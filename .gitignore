@@ -1,0 +1,19 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Created at runtime
+knowledge.db
+
+# Not part of the app: project reports and the original training checkpoint
+# (169 MB, above GitHub's 100 MB file limit; model/early_blight_unet.keras is
+# the same network saved without the optimizer state)
+report/
+model/best_mobilenet_unet.keras
+
+# Downloaded test images (recreate with evaluation/download_test_images.py)
+evaluation/test_images/
+
+# macOS
+.DS_Store
